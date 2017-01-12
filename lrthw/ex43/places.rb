@@ -79,6 +79,9 @@ class Map
     'death'             => Death.new(),
     'escaped'           => Escape.new()
   }
+  def self.scenes
+    @@scenes
+  end
 
   def initialize(start_scene)
     @start_scene = start_scene
