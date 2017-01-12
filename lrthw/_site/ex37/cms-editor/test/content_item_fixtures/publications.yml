@@ -1,0 +1,71 @@
+maximum_length_publication_content_item:
+  as_a: Developer
+  i_need: to test this length
+  so_that: it is tested
+  title: Maximum text lengths publication
+  summary: Mucho texto
+  created_by: ma1twn
+  core_data: maximum_length_publication
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 3
+
+ug_psychology_brochure_content_item:
+  as_a: Developer
+  i_need: a PDF brochure as a Publication content type
+  so_that: I can test publications and attachments
+  title: Undergraduate Psychology
+  summary: Further information about Undergraduate Psychology courses.
+  created_by: mnskchg
+  core_data: ug_psychology_brochure
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 3
+
+invalid_attachment_content_item:
+  as_a: Developer
+  i_need: an attachment object without an attachment
+  so_that: I can test it is invalid
+  title: No file
+  summary: This has no file.
+  created_by: mnskchg
+  core_data: invalid_attachment_publication
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_publication_content_item:
+  as_a: Developer
+  i_need: to test deleting this publication
+  so_that: it is tested
+  title: For test deletion publication
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_publication
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_publication_content_item:
+  as_a: Developer
+  i_need: to test deleting this publication
+  so_that: it is tested
+  title: For test unauthorized deletion publication
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_publication
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_publication_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_publication
+  core_data_type: Publication
+  organisation: university_of_bath
+  status: 0

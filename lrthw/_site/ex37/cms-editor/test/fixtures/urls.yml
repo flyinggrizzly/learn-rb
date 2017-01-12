@@ -1,0 +1,22 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  url: http://www.bath.ac.uk/
+  person_profile: vice_chancellor
+
+two:
+  url: http://www.bath.ac.uk/staff/
+  person_profile: pro_vice_chancellor_research
+
+maximum_lengths_valid:
+  url: http://www.bath.ac.uk/0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0Ztafqw4t4e
+  person_profile: maximum_length_values_valid
+
+invalid_url:
+  url: invalid
+  person_profile: url_invalid
+
+for_test_deletion_person_profile_url:
+  url: http://www.bath.ac.uk/staff/
+  person_profile: for_test_deletion_person_profile

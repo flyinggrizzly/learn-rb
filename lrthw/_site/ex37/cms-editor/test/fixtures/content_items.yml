@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+<%= IO.read(Rails.root.join "test/content_item_fixtures/announcements.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/campaigns.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/case_studies.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/collections.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/corporate_informations.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/events.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/external_items.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/guides.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/locations.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/organisation_landing_pages.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/person_profiles.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/projects.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/publications.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/service_starts.yml") %>
+<%= IO.read(Rails.root.join "test/content_item_fixtures/team_profiles.yml") %>

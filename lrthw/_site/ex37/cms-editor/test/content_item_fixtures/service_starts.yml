@@ -1,0 +1,107 @@
+maximum_length_service_start_content_item:
+  as_a: Developer
+  i_need: a service start with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths service start
+  summary: Mucho text
+  created_by: tt227
+  core_data: maximum_length_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+missing_usage_instructions_service_start_content_item:
+  as_a: Developer
+  i_need: to test this service start
+  so_that: it is tested
+  title: Missing usage instructions
+  summary: Mucho text
+  created_by: tt227
+  core_data: missing_usage_instructions_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_service_start_content_item:
+  as_a: Developer
+  i_need: to test this service start
+  so_that: it is tested
+  title: Invalid email
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_email_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_service_start_content_item:
+  as_a: Developer
+  i_need: to test this service start
+  so_that: it is tested
+  title: Invalid phone
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_phone_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+for_test_survive_deletion_service_start_content_item:
+  as_a: Developer
+  i_need: to test deleting while this remains
+  so_that: it is tested
+  title: Survive deletion service start
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_survive_deletion_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_service_start_content_item:
+  as_a: Developer
+  i_need: to test deleting this service start
+  so_that: it is tested
+  title: For test deletion service start
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_service_start_content_item:
+  as_a: Developer
+  i_need: to test deleting this service start
+  so_that: it is tested
+  title: For test unauthorized deletion service start
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 3
+
+test_service_start_output_for_preview_content_item:
+  as_a: Developer
+  i_need: an item that goes into review and outputs all the expected values for the redis queue
+  so_that: preview works
+  title: Preview output has all new changes test
+  summary: Summary before preview
+  created_by: mnskchg
+  core_data: test_service_start_output_for_preview
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 1
+
+test_status_does_not_change_on_validation_error_service_start_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_service_start
+  core_data_type: ServiceStart
+  organisation: university_of_bath
+  status: 0

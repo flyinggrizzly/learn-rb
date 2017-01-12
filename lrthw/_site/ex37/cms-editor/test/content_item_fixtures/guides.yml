@@ -1,0 +1,118 @@
+tea_making_guide_item:
+  as_a: Web editor
+  i_need: a page about how to make tea
+  so_that: we can have guidance on how to make tea properly
+  title: How to make tea
+  summary: Make tea good
+  created_by: mnskchg
+  core_data: tea_making_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+detailed_tea_making_guide_item:
+  as_a: Developer
+  i_need: a guide with details
+  so_that: I can test that I can create one correctly
+  title: Tea making in detail
+  summary: Really know how to make tea
+  created_by: mnskchg
+  core_data: detailed_tea_making_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+invalid_detailed_guide_item:
+  as_a: Developer
+  i_need: a guide with details but not enough sections
+  so_that: I can test that I can create one correctly
+  title: This detailed guide isn't detailed enough
+  summary: It's supposed to be 2 sections but only has 1
+  created_by: mnskchg
+  core_data: invalid_detailed_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+invalid_section_guide_item:
+  as_a: Developer
+  i_need: a guide that contains an invalid section
+  so_that: I can test that validations for section is correct
+  title: Guide with section that misses bits
+  summary: Shouldn't work
+  created_by: mnskchg
+  core_data: invalid_section_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+invalid_cta_guide_item:
+  as_a: Developer
+  i_need: a guide missing a call to action
+  so_that: I can test that it will be invalid
+  title: Guide without CTA
+  summary: Missing CTA
+  created_by: mnskchg
+  core_data: invalid_cta_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+
+text_limit_guide_item:
+  as_a: Developer
+  i_need: a guide with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths guide
+  summary: The text length is max'd
+  created_by: mnskchg
+  core_data: text_limit_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_guide_content_item:
+  as_a: Developer
+  i_need: to test deleting this guide
+  so_that: it is tested
+  title: For test deletion guide
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+for_test_survive_deletion_guide_content_item:
+  as_a: Developer
+  i_need: to test deleting while this remains
+  so_that: it is tested
+  title: Survive deletion guide
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_survive_deletion_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_guide_content_item:
+  as_a: Developer
+  i_need: to test deleting this guide
+  so_that: it is tested
+  title: For test unauthorized deletion guide
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_guide_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_guide
+  core_data_type: Guide
+  organisation: university_of_bath
+  status: 0

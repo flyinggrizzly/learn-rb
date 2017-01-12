@@ -1,0 +1,238 @@
+maximum_length_values_on_campus_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: maximum_length_on_campus_location test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_on_campus_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+maximum_length_values_off_campus_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: maximum_length_off_campus_location test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_off_campus_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_on_off_campus_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_on_off_campus_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_on_off_campus_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_map_embed_code_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_map_embed_code_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_map_embed_code_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_building_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_building_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_building_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_address_1_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_address_1_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_address_1_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_town_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_town_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_town_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+missing_postcode_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_postcode_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_postcode_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_country_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_country_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_country_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+invalid_featured_image_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: invalid_featured_image_location test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_featured_image_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_featured_image_alt_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_featured_image_alt_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: missing_featured_image_caption_location test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_featured_image_caption_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: invalid_email_location location test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_email_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_location_content_item:
+  as_a: Developer
+  i_need: To test this location
+  so_that: It is tested
+  title: invalid_phone_location test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_phone_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+additional_information_with_carriage_returns_content_item:
+  as_a: Developer
+  i_need: line breaks to not count against character cout restriction so much
+  so_that: editors can accurately type in stuff
+  title: additional_information_with_carriage_returns test
+  summary: blah
+  created_by: mnskchg
+  core_data: additional_information_with_carriage_returns
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_location_content_item:
+  as_a: Developer
+  i_need: to test deleting this location
+  so_that: it is tested
+  title: For test deletion location
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_location_content_item:
+  as_a: Developer
+  i_need: to test deleting this location
+  so_that: it is tested
+  title: For test unauthorized deletion location
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_location_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 0
+
+test_one_for_landing_page_location_content_item:
+  as_a: Developer
+  i_need: a location
+  so_that: I can test a landing page
+  title: Location 1
+  summary: Summary
+  created_by: tt227
+  core_data: test_one_for_landing_page_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 0
+
+test_two_for_landing_page_location_content_item:
+  as_a: Developer
+  i_need: a location
+  so_that: I can test a landing page
+  title: Location 2
+  summary: Summary
+  created_by: tt227
+  core_data: test_two_for_landing_page_location
+  core_data_type: Location
+  organisation: university_of_bath
+  status: 0

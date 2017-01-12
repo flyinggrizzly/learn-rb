@@ -1,0 +1,181 @@
+maximum_length_announcement_content_item:
+  as_a: Developer
+  i_need: an announcement with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths announcement
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: maximum_length_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Missing image alt
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_alt_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Missing image caption
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_caption_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+missing_object_title_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Missing object title
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_title_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+missing_object_embed_code_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Missing object embed code
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_embed_code_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Invalid email
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_email_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Invalid phone
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_phone_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+internal_url_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Internal url announcement
+  summary: Mucho text
+  created_by: tt227
+  url_path: /announcements/internal-url-announcement
+  core_data: internal_url_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+internal_cta_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Internal cta announcement
+  summary: Mucho text
+  created_by: tt227
+  core_data: internal_cta_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+  url_path: /announcements/internal-cta-announcement
+
+internal_invalid_cta_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Internal invalid cta announcement
+  summary: Mucho text
+  created_by: tt227
+  core_data: internal_invalid_cta_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+internal_full_url_cta_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: Internal full url cta announcement
+  summary: Mucho text
+  created_by: tt227
+  core_data: internal_full_url_cta_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+external_full_url_cta_announcement_content_item:
+  as_a: Developer
+  i_need: to test this announcement
+  so_that: it is tested
+  title: External full url cta announcement
+  summary: Mucho text
+  created_by: tt227
+  core_data: external_full_url_cta_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_announcement_content_item:
+  as_a: Developer
+  i_need: to test deleting this announcement
+  so_that: it is tested
+  title: For test deletion announcement
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_announcement_content_item:
+  as_a: Developer
+  i_need: to test deleting this announcement
+  so_that: it is tested
+  title: For test unauthorized deletion announcement
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_announcement_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_announcement
+  core_data_type: Announcement
+  organisation: university_of_bath
+  status: 0

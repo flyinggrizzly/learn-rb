@@ -1,0 +1,100 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+university_of_bath:
+  name: University of Bath
+  contact_information: +44 (0)1225 388388
+
+mar_comms:
+  name: Department of Marketing and Communications
+  contact_information: Gail Gillespie
+
+science:
+  name: Science
+  contact_information: A phone number in Science
+
+other_org:
+  name: Org for associating
+  contact_information: batman
+
+research_group:
+  name: Research group
+  contact_information: +44 (0)1225 388388
+  type: Group
+  organisation: university_of_bath
+
+feature_test_group:
+  name: Feature test group
+  contact_information: Liam
+  organisation: university_of_bath
+  type: Group
+
+parent_org:
+  name: Parent organisation
+  contact_information: Daddy
+
+child_group:
+  name: Child group
+  contact_information: First born
+  organisation: parent_org
+  type: Group
+
+parent_org_of_associated_group:
+  name: Parent organisation of associated group
+  contact_information: Daddy
+
+associated_child_group:
+  name: Associated child group
+  contact_information: First born
+  organisation: parent_org_of_associated_group
+  type: Group
+
+org_without_landing_page:
+  name: Org without a landing page
+  contact_information: Alfred
+
+org_with_landing_page_that_has_no_last_published_ver:
+  name: Org with landing page that has no last publisher version
+  contact_information: Fozzy
+
+org_for_test_groups_in_output:
+  name: Org with groups for landing page output
+  contact_information: Rey
+
+first_group_for_org_landing_page:
+  name: First group for landing page
+  contact_information: Kylo
+  organisation: org_for_test_groups_in_output
+  type: Group
+
+second_group_for_org_landing_page:
+  name: Second group for landing page
+  contact_information: Kylo
+  organisation: org_for_test_groups_in_output
+  type: Group
+
+test_filter_published_by_org_scope:
+  name: Test the filter published by org scope
+  contact_information: Prowse
+
+test_associated_published_by_org_draft:
+  name: Test the static method listing owned and associated published content items
+  contact_information: Liam
+
+test_associated_published_by_org_no_content_items:
+  name: Ensure no errors if no content items
+  contact_information: Dan
+
+test_all_pinnable_by_org_organisation:
+  name: Test pinning content from child groups parent
+  contact_information: Tom
+
+test_all_pinnable_by_org_group:
+  name: Test pinning content from child groups child
+  contact_information: Tom
+  organisation: test_all_pinnable_by_org_organisation
+  type: Group
+
+org_without_content_items:
+  name: Org without content items
+  contact_information: Tom

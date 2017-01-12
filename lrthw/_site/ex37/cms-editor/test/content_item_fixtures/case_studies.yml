@@ -1,0 +1,143 @@
+maximum_length_case_study_content_item:
+  as_a: Developer
+  i_need: a case study with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths case study
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: maximum_length_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+invalid_quote_case_study_content_item:
+  as_a: Developer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Missing quote attribution
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_quote_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_case_study_content_item:
+  as_a: Developer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Missing image alt
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_alt_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_case_study_content_item:
+  as_a: Developer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Missing image caption
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_caption_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+missing_object_title_case_study_content_item:
+  as_a: Developer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Missing object title
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_title_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+missing_object_embed_code_case_study_content_item:
+  as_a: Developer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Missing object embed code
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_embed_code_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_case_study_content_item:
+  as_a: Designer
+  i_need: to test this service start
+  so_that: it is tested
+  title: Invalid email
+  summary: Mucho text
+  created_by: lm317
+  core_data: invalid_email_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_case_study_content_item:
+  as_a: Designer
+  i_need: to test this service start
+  so_that: it is tested
+  title: Invalid phone
+  summary: Mucho text
+  created_by: lm317
+  core_data: invalid_phone_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+featured_case_study_content_item:
+  as_a: Designer
+  i_need: to test this case study
+  so_that: it is tested
+  title: Featured case study
+  summary: Here are some words
+  created_by: ma1twn
+  core_data: featured_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_case_study_content_item:
+  as_a: Developer
+  i_need: to test deleting this case study
+  so_that: it is tested
+  title: For test deletion case study
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_case_study_content_item:
+  as_a: Developer
+  i_need: to test deleting this case study
+  so_that: it is tested
+  title: For test unauthorized deletion case study
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_case_study_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_case_study
+  core_data_type: CaseStudy
+  organisation: university_of_bath
+  status: 0

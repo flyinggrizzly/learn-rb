@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CMS Editor application</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= csrf_meta_tags %>
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b88bad85-b88d-4a23-aa6f-4d4a0469310c.css"/>
+    <link rel="stylesheet" type="text/css" href="<%= asset_path '/origins/css/bath/apps/apps.css' %>">
+    <!-- for the search box -->
+    <link rel="stylesheet" href="/js/jquery-ui-1.11.4/jquery-ui.min.css">
+    <!-- Apple Touch - iOS 7 -->
+    <link rel="apple-touch-icon" sizes="152x152" href="<%= asset_path '/origins/universal/images/favicon/apple/apple-touch-icon-152x152.png' %>">
+    <!-- Apple Touch - iOS 8 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= asset_path '/origins/universal/images/favicon/apple/apple-touch-icon-180x180.png' %>">
+    <!-- Android - Chrome < M38 -->
+    <link rel="icon" sizes="192x192" type="image/png" href="<%= asset_path '/origins/universal/images/favicon/android/android-chrome-192x192.png' %>">
+    <!-- Android - Chrome M39 -->
+    <link rel="manifest" href="<%= asset_path '/origins/universal/images/favicon/manifest.json' %>">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<%= asset_path '/origins/universal/images/favicon/favicon.ico' %>">
+    <!-- Microsoft - Windows Phone/Windows 8 -->
+    <meta name="msapplication-config" content="<%= asset_path '/origins/universal/images/favicon/browserconfig.xml' %>">
+    <meta name="msapplication-TileImage" content="<%= asset_path '/origins/universal/images/favicon/windows/mstile-144x144.png' %>">
+    <meta name="msapplication-TileColor" content="#004489">
+  </head>
+  <body id="cms-editor" data-controller="<%= controller_name %>" data-action="<%= action_name %>">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N6B7GK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N6B7GK');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Header -->
+    <header>
+      <div class="row">
+        <div class="small-24 medium-10 large-6 column">
+          <img src="<%= asset_path '/origins/universal/images/logo/uob-logo-inverse.svg' %>" alt="University of Bath logo">
+        </div>
+        <div class="small-24 medium-14 large-10 column">
+          <span class="app-title">CMS Beta</span>
+        </div>
+      </div>
+    </header>
+    <!-- Main navigation -->
+    <nav class="site-nav">
+      <div class="row">
+        <div class="small-24 column">
+          <ul>
+            <li class="first active"><%= link_to 'Create a new item', content_type_list_path %></li>
+            <li class="last"><%= link_to 'Edit an existing item', root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <%= yield %>
+    </main>
+    <footer class="page-footer">
+      <div class="row">
+        <div class="small-24 large-8 column">
+          <p><a href="http://www.bath.ac.uk/corporate-information/copyright/">&copy; University of Bath <%= DateTime.now.year %></a></p>
+        </div>
+        <div class="small-24 large-16 column">
+          <nav>
+            <ul>
+              <li><a href="http://www.bath.ac.uk/corporate-information/disclaimer/">Disclaimer</a></li>
+              <li><a href="http://www.bath.ac.uk/foi/">Freedom of information</a></li>
+              <li><a href="http://www.bath.ac.uk/corporate-information/privacy-and-cookie-policy/">Privacy and cookie policy</a></li>
+              <li><a href="http://www.bath.ac.uk/index">A&ndash;Z</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.readyselector.js"></script>
+    <script type="text/javascript" src="/js/repeatable-field.js"></script>
+    <script type="text/javascript" src="/js/repeatable-team-member.js"></script>
+    <script type="text/javascript" src="/js/repeatable-label.js"></script>
+    <script type="text/javascript" src="/js/action-message.js"></script>
+    <script type="text/javascript" src="/js/character-count.js"></script>
+    <script type="text/javascript" src="/js/jquery-ujs.js"></script>
+    <script type="text/javascript" src="/js/auto-fill-search.js"></script>
+  </body>
+</html>

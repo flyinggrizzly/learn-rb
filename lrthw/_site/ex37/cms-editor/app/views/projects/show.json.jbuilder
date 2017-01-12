@@ -1,0 +1,1 @@
+json.extract! @project, :id, :subtype, :status, :project_overview, :budget, :start, :end, :contact_name, :contact_email, :contact_phone, :featured_image, :featured_image_alt, :featured_image_caption, :object_title, :object_embed_code, :created_at, :updated_at

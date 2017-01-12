@@ -1,0 +1,18 @@
+en:
+  content_items:
+    organisations_legend: Responsible Organisations and Groups
+    owning_organisation_label: Owning Organisation or Group
+    owning_organisation_info: "Select who owns this content and is primarily responsible for maintaining it. If it's a Group, select the Group itself, not the parent Organisation."
+    associated_org_label: Associated Organisations and Groups
+    associated_org_info: Select any additional Groups or Organisations who share responsibility for this content and may need access to amend it.
+    index:
+      heading: Existing content items
+      summary: A list of all content currently in the CMS.
+      filter_legend: Filter content items
+      filter_clear: Clear filter
+      autocomplete_label: Search for content item by title
+      filter_organisation_label: Owning Organisation or Group
+      filter_organisation_prompt: Select an Organisation or Group
+      filter_submit: Apply filter
+      filter_organisation_blank: All Organisations and Groups
+      filter_no_results: has no content items.

@@ -1,0 +1,179 @@
+maximum_length_values_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: maximum_length_values_campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_values_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_benefit_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_benefit_campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_benefit_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_status_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_status campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_status_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_start_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_start campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_start_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_end_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_end_campaign campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_end_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_featured_image_alt campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_featured_image_alt_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: missing_featured_image_caption_campaign campaign test
+  summary: Some text
+  created_by: ma1twn
+  core_data: missing_featured_image_caption_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+start_after_end_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: start_after_end campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: start_after_end_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+invalid_featured_image_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: invalid_featured_image campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_featured_image_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+invalid_contact_email_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: invalid_contact_email campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_contact_email_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+invalid_contact_phone_campaign_content_item:
+  as_a: Developer
+  i_need: To test this campaign
+  so_that: It is tested
+  title: invalid_contact_phone campaign test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_contact_phone_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_campaign_content_item:
+  as_a: Developer
+  i_need: to test deleting this campaign
+  so_that: it is tested
+  title: For test deletion campaign
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_campaign_content_item:
+  as_a: Developer
+  i_need: to test deleting this campaign
+  so_that: it is tested
+  title: For test unauthorized deletion campaign
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 3
+
+test_campaign_output_for_preview_content_item:
+  as_a: Developer
+  i_need: an item that goes into review and outputs all the expected values for the redis queue
+  so_that: preview works
+  title: Preview output has all new changes test
+  summary: Summary before preview
+  created_by: mnskchg
+  core_data: test_campaign_output_for_preview
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 1
+
+test_status_does_not_change_on_validation_error_campaign_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_campaign
+  core_data_type: Campaign
+  organisation: university_of_bath
+  status: 0

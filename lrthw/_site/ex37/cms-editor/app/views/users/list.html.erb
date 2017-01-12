@@ -1,0 +1,5 @@
+<ul id="users">
+<% @cms_users.each do |user| %>
+  <li><a href="http://www.bath.ac.uk/person/<%= user.person_id %>"><%= user.display_name %></a></li>
+<% end %>
+</ul>

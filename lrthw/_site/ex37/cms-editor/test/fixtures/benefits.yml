@@ -1,0 +1,201 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_benefit:
+  description: vtJBvuoYoKE3xTjojmny1lCmB8BE3Zsa8nfasVgrCPT90kTrNo9GqTjQKOOteou9OIcvrAIQ0UDyzqIN14ptZokGThubVpkzNgtQW6TrTm3H2GNO6esAqythqRivksDGe5ZqrW30vR4btyoVq2NgEYhkUr8ifH7c1ZmHL98CT0MWfJNkIzW8wZITFOwySot8CtBbobW9NSBzHDOk7V1BBEj57obesPHRCm9QyRHj0tub4K31jXGSSSh8e0rMkX29Lhq390LA5Dg0K6VbLYQ2B4gkx7HGFr96gS2qYJeM7U58eRBXYYwQ2oG5LMVVYOtFGEFcYplnoxaDzAg5CS6ClnjDuXYxVp6qvtBM1iF3SZ3xzunIHCRgaMlOnVwHSNknIpYtnjEPNGiASeE132yY3iVjMbQbBl4vHxDrTut8UPNuImCw6QiSm7ku7jn3LvUkv4Kgrb04gSloPfcprkK1axeCMSJ6QlJTiJ9VSKUSeUy89Wt3omPNwz58EkG975eXvKinhjlowbP6ElKwtZx3kEvYlYhKxG2t5Gbhxaz2wzxgWf75nnFpUfApKIgo1Q5LMcEaTT0k4eqAJSPPak2cx03MSHF403V40smKrz0tcjTllKjESMkz71Ku8V8E7qzJnPxzZbeAKKGZ4vkIR1X6XEEDSYWT6n4qS2GUxKmVKCmLcgRwomeT3n4xTfvbHoqeTpmmJLomxQZJRZ6iQEWxjJtwSjRlBzPStDYQa95Rki0FuevzJqDvNBEepyhargWmo5IN9VQv3TQfep44clPzH6zLqvkZeJXL2aUfhQc1XSs6MhViorsHEy5zB2QLi78Kx12lYDebWKhBCv5yZfJeaUKU0M9FsIMmO0IWS0tKue8Lgnl3fhSorOwOkpyjE2m7LX9Ep4Pmt3t7VHApZfE7W0N5mgt8imlA82aL0EmXowAv0H7vbw6E1WtUyG402XeBcJzSL0c3Aipj0QY8RBOvfvjIZzgb3lym2ashbqyD
+  call_to_action_type: url
+  call_to_action_label: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2a
+  call_to_action_content: http://www.bath.ac.uk/BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjS
+  image: http://www.bath.ac.uk/BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjS
+  image_alt: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  image_caption: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  object_title: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQ
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0ZtXZ6ytnc9oQB0LAmgJ5BIrmIyz8oxuo0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485j8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485j8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO
+  campaign: maximum_length_values_campaign
+
+missing_description_benefit:
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_call_to_action_label_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_call_to_action_content_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_image_alt_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_image_caption_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_object_title_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+missing_object_embed_code_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+
+missing_status_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: missing_status_campaign
+
+missing_start_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: missing_start_campaign
+
+missing_end_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: missing_end_campaign
+
+missing_featured_image_alt_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: missing_featured_image_alt_campaign
+
+start_after_end_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: start_after_end_campaign
+
+invalid_featured_image_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: invalid_featured_image_campaign
+
+invalid_contact_email_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: invalid_contact_email_campaign
+
+invalid_contact_phone_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  image_alt: A logo
+  image_caption: A coat of arms
+  object_title: Instructional video
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  campaign: invalid_contact_phone_campaign
+
+campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  campaign: maximum_length_values_campaign
+
+for_test_deletion_campaign_benefit:
+  description: I propose we do things for the university
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  campaign: for_test_deletion_campaign
+
+for_test_campaign_output_for_preview:
+  description: I am for testing preview
+  call_to_action_type: url
+  call_to_action_label: Click here
+  call_to_action_content: http://www.bath.ac.uk/
+  campaign: test_campaign_output_for_preview

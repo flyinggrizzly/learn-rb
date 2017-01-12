@@ -1,0 +1,339 @@
+vice_chancellor_content_item:
+  as_a: Web editor
+  i_need: a page about our Vice Chancellor
+  so_that: we can have a page about the Vice Chancellor on our website
+  title: Vice Chancellor
+  summary: The Vice Chancellor's page
+  created_by: mnskchg
+  core_data: vice_chancellor
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+vice_chancellor_valid_item:
+  as_a: Web editor
+  i_need: a page about our Vice Chancellor
+  so_that: we can have a page about the Vice Chancellor on our website
+  title: Vice Chancellor
+  summary: The Vice Chancellor's page
+  created_by: mnskchg
+  core_data: vice_chancellor_valid
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+vice_chancellor_published_content_item:
+  as_a: Web editor
+  i_need: a page about our Vice Chancellor
+  so_that: we can have a page about the Vice Chancellor on our website
+  title: Vice Chancellor Published
+  summary: The Vice Chancellor's second page
+  created_by: ma1twn
+  core_data: vice_chancellor_published
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+pvc_learning_teaching_content_item:
+  as_a: Web editor
+  i_need: a page about our Pro-Vice-Chancellor
+  so_that: we can have a page about the Pro-Vice-Chancellor on our website
+  title: Pro-Vice-Chancellor (Learning & Teaching)
+  summary: Summary
+  created_by: if243
+  core_data: pvc_learning_teaching
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+pro_vc_research_content_item:
+  as_a: Web editor
+  i_need: a page about our Pro VC Research
+  so_that: we can have a page about the Pro VC Research on our website
+  title: Pro VC Research
+  summary: The Pro VC Research's page
+  created_by: mnskchg
+  core_data: pro_vice_chancellor_research
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+  url_path: /profiles/pro-vc-research-jane-millar
+
+pvc_research_content_item:
+  as_a: Developer
+  i_need: another person profile
+  so_that: I can test this feature
+  title: PVC Research
+  summary: The Pro VC Research's page
+  created_by: ma1twn
+  core_data: pvc_research
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+staff_member1_content_item:
+  as_a: Web Dev
+  i_need: a staff profile
+  so_that: I can test the output of Team Profiles
+  title: Staff member
+  summary: Has worked here for many years
+  created_by: mnskchg
+  core_data: staff_member1
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+as_a_user_story_invalid:
+  as_a: Web editor Web editor Web editor Web editor Web editor Web editor Web editor Web editor Web editor Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: as_a_user_story_invalid
+  summary: The senior leadership team
+  created_by: ma1twn
+  core_data: vice_chancellor
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+i_need_user_story_invalid:
+  as_a: Web editor
+  i_need: a page about our senior managers a page about our senior managers a page about our senior managers word
+  so_that: we can have a senior manager team page
+  title: i_need_user_story_invalid
+  summary: The senior leadership team
+  created_by: ma1twn
+  core_data: vice_chancellor
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+so_that_user_story_invalid:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page we can have a senior manager team page we can have a senior manager
+  title: so_that_user_story_invalid
+  summary: The senior leadership team
+  created_by: ma1twn
+  core_data: vice_chancellor
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+title_invalid:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: Senior Managers Senior Managers Senior Managers Senior Managers Senior Managers - BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1Cez
+  summary: The senior leadership team
+  created_by: ma1twn
+  core_data: title_invalid_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+summary_invalid:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: summary_invalid
+  summary: The senior leadership team The senior leadership team The senior leadership team The senior leadership team The senior leadership team The senior leadership team
+  created_by: ma1twn
+  core_data: vice_chancellor
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+person_profile_max_length:
+  as_a: Tester
+  i_need: a thing I can test
+  so_that: I can make some other data valid
+  title: person_profile_max_length
+  summary: Summary
+  created_by: ma1twn
+  core_data: maximum_length_values_valid
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+person_profile_role_holder_name_invalid:
+  as_a: Tester
+  i_need: a thing I can test
+  so_that: I can make some other data valid
+  title: person_profile_role_holder_name_invalid
+  summary: Summary
+  created_by: ma1twn
+  core_data: role_holder_name_invalid
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+url_invalid_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: Invalid URL
+  summary: Test for an invalid url
+  created_by: ma1twn
+  status: 3
+  core_data: url_invalid
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+url_path_generation_person_profile_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: Person url generation
+  summary: Test for url generation
+  created_by: ma1twn
+  status: 3
+  core_data: url_path_generation_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+leadership_subtype_url_path_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: leadership subtype url path content item
+  summary: Test for Leadership subtype url path
+  created_by: tt227
+  status: 3
+  core_data: leadership_subtype_url_path
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+staff_subtype_url_path_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: staff subtype url path content item
+  summary: Test for Staff subtype url path
+  created_by: tt227
+  status: 3
+  core_data: staff_subtype_url_path
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+academic_subtype_url_path_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: Academic subtype url path content item
+  summary: Test for academic subtype url path
+  created_by: ma1twn
+  status: 3
+  core_data: academic_subtype_url_path
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+andre_muller_profile_content_item:
+  as_a: Dev
+  i_need: a content item for a profile that has special characters
+  so_that: I can test that they are parsed correctly
+  title: Maîtriser
+  summary: Give me a decent URL
+  created_by: mnskchg
+  status: 3
+  core_data: andre_muller_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+acute_profile_content_item:
+  as_a: Dev
+  i_need: a title with even more ridiculous characters
+  so_that: I can get this to definitely be accepted
+  title: Master
+  summary: Give me a decent URL
+  created_by: mnskchg
+  status: 3
+  core_data: acute_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+
+for_test_deletion_person_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this person profile
+  so_that: it is tested
+  title: For test deletion person profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+for_test_survive_deletion_person_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this person profile
+  so_that: it is tested
+  title: For test survive deletion person profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_survive_deletion_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_person_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this person profile
+  so_that: it is tested
+  title: For test unauthorized deletion person profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_person_profile_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 0
+
+for_test_role_holder_name_is_listed_for_person_profiles_content_item:
+  as_a: Developer
+  i_need: to show the role holder name for a person profile
+  so_that: users know who the profile is for
+  title: Show my role holder name
+  summary: Summary
+  created_by: if243
+  core_data: for_test_role_holder_name_is_listed_for_person_profiles
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 0
+
+test_publish_associated_team_profile_person_profile_content_item:
+  as_a: Developer
+  i_need: A person with an associated team
+  so_that: I can test it gets published
+  title: Person with associated team
+  summary: Summary
+  created_by: tt227
+  core_data: test_publish_associated_team_profile_person_profile
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 0
+
+team_member_named_a_content_item:
+  as_a: Developer
+  i_need: to make sure team members are ordered correctly
+  so_that: ship a feature
+  title: Accountant
+  summary: Summary
+  created_by: if243
+  core_data: team_member_named_a
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3
+
+team_member_named_b_content_item:
+  as_a: Developer
+  i_need: to make sure team members are ordered correctly
+  so_that: ship a feature
+  title: Accountant
+  summary: Summary
+  created_by: if243
+  core_data: team_member_named_b
+  core_data_type: PersonProfile
+  organisation: university_of_bath
+  status: 3

@@ -1,0 +1,327 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_on_campus_organisation_landing_page:
+  subtype: Organisation
+  about: 0HS6rcrzRBZu2ZjyH5tHQorRrGKz0HcwXmHshfr9x1xkK3UlD8f7PT5zGjVNUWMoTUnac76pyoOtEbtOzo5lVtDKF67DeH0QQGEe6OLVoUkGFWjF4AcXu1qu3X1MfuRexY7LK28P31beneT4rssiyCrbUNByInhfawunvDUfLALMlt20kDCOtI4CMWWuuQ6KKnlnmVOoGRww8KC7kzNjFMnChXiR3Oee4Bb4L0gliqNnEGmWWqZOLqO68UjxIEF
+  contact_name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  contact_email: bbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+  on_off_campus: on_campus
+  building: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  room: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  on_off_campus: on_campus
+  building: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  room: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  featured_item_1: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_2: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_3: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_4: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_5: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_6: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  content_list: groups
+
+maximum_length_values_off_campus_organisation_landing_page:
+  subtype: Organisation
+  about: 0HS6rcrzRBZu2ZjyH5tHQorRrGKz0HcwXmHshfr9x1xkK3UlD8f7PT5zGjVNUWMoTUnac76pyoOtEbtOzo5lVtDKF67DeH0QQGEe6OLVoUkGFWjF4AcXu1qu3X1MfuRexY7LK28P31beneT4rssiyCrbUNByInhfawunvDUfLALMlt20kDCOtI4CMWWuuQ6KKnlnmVOoGRww8KC7kzNjFMnChXiR3Oee4Bb4L0gliqNnEGmWWqZOLqO68UjxIEF
+  contact_name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  contact_email: bbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+  on_off_campus: off_campus
+  address_1: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  address_2: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  town: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  postcode: '63301-1394'
+  country: vQi2qPUMxb6ST32nu3bYplsfNWjnXvEz3ezOhgDfCPUmLkf4X2VGZBc6QmuSBk1gG
+  featured_item_1: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_2: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_3: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_4: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_5: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_item_6: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  content_list: groups
+
+missing_on_off_campus_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  content_list: groups
+
+missing_about_organisation_landing_page:
+  subtype: Organisation
+  on_off_campus: on_campus
+  content_list: groups
+
+missing_building_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  on_off_campus: on_campus
+  room: 4.16
+  content_list: groups
+
+missing_address_1_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  on_off_campus: on_campus
+  town: Bath
+  postcode: BA1 1UD
+  country: United Kingdom
+  content_list: groups
+
+missing_town_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  on_off_campus: on_campus
+  address_1: Carpenter House
+  postcode: BA1 1UD
+  country: United Kingdom
+  content_list: groups
+
+missing_postcode_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  on_off_campus: on_campus
+  address_1: Carpenter House
+  town: Bath
+  country: United Kingdom
+  content_list: groups
+
+missing_country_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page
+  on_off_campus: on_campus
+  address_1: Carpenter House
+  town: Bath
+  postcode: BA1 1UD
+  content_list: groups
+
+invalid_email_organisation_landing_page:
+  subtype: Organisation
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  contact_email: invalid
+  content_list: groups
+
+invalid_phone_organisation_landing_page:
+  subtype: Organisation
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  contact_phone: invalid
+  content_list: groups
+
+featured_item_organisation_landing_page:
+  subtype: Organisation
+  about: Org Landing Page with featured item
+  on_off_campus: on_campus
+  room: 4.16
+  building: Wessex House
+  content_list: groups
+
+test_non_admin_cant_edit_content_item_feature:
+  subtype: Organisation
+  about: This is for a feature test for non-admin editors
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+for_test_deletion_organisation_landing_page:
+  subtype: Organisation
+  about: To be deleted
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+for_test_unauthorized_deletion_organisation_landing_page:
+  subtype: Organisation
+  about: To not be deleted
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_org_landing_page_output_for_preview:
+  subtype: Organisation
+  about: This is what I say before Review
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_highlighted_items_order_organisation_landing_page:
+  subtype: Organisation
+  about: Has highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_announcement_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_campaign_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_case_study_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_corporate_information_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_event_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_guide_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_location_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_person_profile_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_project_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_publication_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_service_start_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_max_highlighted_team_profile_count_organisation_landing_page:
+  subtype: Organisation
+  about: Will have too many highlighted items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_status_does_not_change_on_validation_error_org_landing_page:
+  subtype: Organisation
+  about: Don't change status
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_landing_page_url_landing_page:
+  subtype: organisation
+  about: Return the url for this landing page given an org
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_null_last_published_version_should_not_throw_error:
+  subtype: organisation
+  about: Don't die on nil class please
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_groups_in_output:
+  subtype: organisation
+  about: Have a bunch of groups for the responsible org and chuck them into the output
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+landing_page_for_group_in_first_group_for_org_landing_page:
+  subtype: group
+  about: Be a group with a landing page so that I generate a link
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_saved_url_path_for_funnelback:
+  subtype: group
+  about: Just a test for saving the url_path in published_item_json
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: groups
+
+test_content_list_validation:
+  subtype: organisation
+  about: Test the content list when we have locations selected
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: invalid
+
+test_content_list_locations:
+  subtype: organisation
+  about: Test the content list when we have locations selected
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: locations
+
+test_no_content_list:
+  subtype: organisation
+  about: Test the content list when we have no items
+  on_off_campus: on_campus
+  building: Wessex House
+  room: 4.16
+  content_list: services

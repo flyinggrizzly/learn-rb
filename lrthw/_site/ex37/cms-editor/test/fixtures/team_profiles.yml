@@ -1,0 +1,156 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+marketing:
+  subtype: professional_service_team
+  duties: Managing marketing work at the university
+  membership_type: subsets
+
+saved_url_path_for_funnelback:
+  subtype: professional_service_team
+  duties: Testing the URL path for Funnelback
+  membership_type: profiles
+
+team_no_members:
+  subtype: professional_service_team
+  duties: Having no members
+  contact_name: The empty chair
+  contact_email: fake@bath.ac.uk
+  contact_phone: 1111
+
+senior_managers:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+vice_chancellors_group:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+committee:
+  subtype: professional_service_team
+  duties: Overseeing an strategic university activity
+  contact_name: The chair
+  contact_email: fake@bath.ac.uk
+  contact_phone: 1111
+  membership_type: profiles
+
+team_draft:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+team_draft_2:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+team_in_review:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+team_published:
+  subtype: professional_service_team
+  duties: Governing the university
+  membership_type: profiles
+
+maximum_length_values_valid:
+  subtype: professional_service_team
+  duties: ONccGJLBTghU9FvcE0S5CT4p7CUaipZnBuGC9xxqoVBi63jNXMwNm1OqU6meHmUXvSSDw313pZ4VysOHJTwQWY3RqjtQj5hBt8y57Nu8arY2SauikVv3cIlcLROESFKXcj4AQ6W60N4WaXGVaZcID2eKyXZu5GPqGilxbq8Z9Hl2AeUvSFKTNGZOKY8nNBG7x688gQ5XcoNOWsxzBU0sWrJOTWCXE2lTPqcaN0fCjqTVng5D7PpO2iIO6QgogMFvPbVtXFFIkZlKlZtBtPVXOxL40oLHDqMNLmO5EW0bxDuXf2q5SbLRMLuHGXCNAKLOITmhxvcayvngs5QgontoUV2k5WhsDxa3YaCqDcYZSi3uhWnTQNtFBWpx9hxe5qbbwQNXMVruKoXxT9QQcbV9mgBFIhgtYXxfPC8gMrRGWQpsxEiZ4kEFh6zxIlFHIrfCs2mETzLS1VN9gn3eL5r7HPiAsBLz99FKmJ8RcMYiSVyfkltuu9cRShjvKMLyKXPJvwWfkRrvI30tfuBI61IXq56b3lDMM926IrbWm3VErEGmGms6yoIZi0BwLvGPPuZrsyixoiXparRythWuNPNuSyXIo71fIiEAPHKhafYaNnTeEbE56GUOteaCkzKkE8VNm9Tgj1XamPIb8rM6BOZ3XUQK5fQNHn2eZVQo8nrsqW6QGVrHvMCIve4K5Se2jiWWEearuvL5pGf2YlwH0LqinnpGUOzyv3qr3sIpccT5ieQ845qY0ifcEMf6pFH7fJ20iaHKtt9okTMCS3EhcvlVMnSAestLRyTtN4IxsI6Z5UaIF0RgcKPWk2PD602G0u5Y6f5jnScpFMbTZnxhBkZWZRm5riwrpAO8tcWny1z7tFjbWGRGVq61M2XNjtJKUgcObPzJVC0AQqTGEQqL2NE51Zweei5ts9sJBY3wQ9n9Q5DJojR8zZc82KvOUlEBFHaxDGkPcv54joKxmpeli6DwSVBbESLBj4q6XRJP7W0n
+  membership_type: subsets
+  contact_name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  contact_email: bbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+duties_invalid:
+  subtype: professional_service_team
+  duties: u5ba4omjjtj4M1SmfEAiYL5GrNVPOczEzeEtQKTAu2fmNaI4bzsriwrbhZYnCt21Ih53ZcrtuBBObX6Lh9C9t1U4wmIZsNNjro50J5mWSDn5S6vczzk5UvYFpiMbT5N7Ka8GcahfcINaTE5hzr7lZLKNFPNx9l7bn4LCfueokU7POFC1QqqUNVooZ4NtCB3fn7EizIFPJCOS3plZW9DbNMeGsSMGGzl4etNZHcujNkmStfFrZ6GmxOikWltKfzwJ4z9ucMZKVbnyUFTogyVDz3a3pmWeIjXHLPZYmGSQnCMu9RgUfD8H4vPWwkbqVuLH5tfrvZzr1SzD6nO6YsU4tkAXebsQY23whTYfvC2eMBQ1Z8neE9TplWIxEkMxYo7Xb8qtgfw2lczGKlxinCokp9UaEN7pzTFX9lIofr3anfClq4Zx7Is7hDmhC4KckPZRbsXY9yQi1RwJKs8krtCZRw29I9b8W8VtbLSt0X8FfhlZDlnHyDSH7zNA1H4mj5y2XxZejXLRUr6lN0sl29220Dsa6vmFj3xUqUpqxh0Ilp82su7YDcTNuPPeQK0QfBF5ZJb6JXnnDEkk7Y8IIfvr5gnfyEAyJOgGWp3PQ5pcWKT1g0VHFkY5DhGn19IV6HHTZf2WQCDtcpt3BSeZ6DbDwZTOB4GTS8WShnVEOGZhnhhlZ9L7uQIG8eO7MBNVmDM4yLg5xkGpHiXNJChQJS3TRijmExYrMDPv7gYxzeQByMMR6Z0fo6AGsvYchKXy8D2ZtYF2Bp8kjJ97YJTOcHTXWrjF3B5hgy5Mk0kCoPOjn0Wigt005rllwNpNwqU3F6A16McArbJZjyGr7UZ3bP45hXwZYYukA5Xm9b8yB2Quv50mAJUmbyMoxvI2kvYX0ekUrexJk7kVUt2w4E7WJGCvlHoEsUos2aiSNwXPZhirBTh3ulDn0LfWVBgD0h0Pjt454ZpTeAvZKKlqYcVoUpK9oIIqIkmPpXMxaK3lmJ0Nq
+  membership_type: profiles
+
+last_published_team:
+  subtype: professional_service_team
+  duties: Testing the Last Published Version feature
+  membership_type: profiles
+
+save_last_published_version_number_team:
+  subtype: professional_service_team
+  duties: Testing the Save Last Published Version feature
+  membership_type: profiles
+
+team_with_subsets:
+  subtype: professional_service_team
+  duties: Running all the things
+  membership_type: subsets
+
+team_with_profiles:
+  subtype: professional_service_team
+  duties: Running all the things
+  membership_type: profiles
+
+invalid_subset_team_profile:
+  subtype: professional_service_team
+  duties: Running all the things
+  membership_type: profiles
+
+for_test_survive_deletion_team_profile:
+  subtype: professional_service_team
+  duties: Not being deleted
+  membership_type: profiles
+
+for_test_deletion_team_profile:
+  subtype: professional_service_team
+  duties: Being deleted
+  membership_type: profiles
+
+for_test_deletion_subset_team_profile:
+  subtype: professional_service_team
+  duties: Being deleted
+  membership_type: subsets
+
+for_test_unauthorized_deletion_team_profile:
+  subtype: professional_service_team
+  duties: Not being deleted
+  membership_type: subsets
+
+test_team_profile_output_for_preview:
+  subtype: professional_service_team
+  duties: This is what I say before Review
+  contact_name: The chair
+  contact_email: fake@bath.ac.uk
+  contact_phone: 1111
+  membership_type: profiles
+
+test_status_does_not_change_on_validation_error_team_profile:
+  subtype: professional_service_team
+  duties: Blah
+  contact_name: The chair
+  contact_email: fake@bath.ac.uk
+  contact_phone: 1111
+  membership_type: profiles
+
+test_publish_associated_team_profile_team_profile:
+  subtype: professional_service_team
+  duties: Get published
+  membership_type: profiles
+
+test_no_duplicate_team_members:
+  subtype: professional_service_team
+  duties: Being unique
+  membership_type: profiles
+
+test_add_order_to_team_members:
+  subtype: professional_service_team
+  duties: Bringing order to the universe
+  membership_type: profiles
+
+test_order_of_team_members_for_output:
+  subtype: professional_service_team
+  duties: Displaying people in the right order
+  membership_type: profiles
+
+test_reorder_team_members_js:
+  subtype: committee
+  duties: Dragging and dropping team members
+  membership_type: profiles

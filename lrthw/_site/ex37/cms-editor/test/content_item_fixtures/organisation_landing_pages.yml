@@ -1,0 +1,456 @@
+maximum_length_values_on_campus_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: maximum_length_values_on_campus_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_values_on_campus_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+maximum_length_values_off_campus_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: maximum_length_values_off_campus_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_values_off_campus_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_on_off_campus_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_on_off_campus_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_on_off_campus_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_about_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_about_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_about_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_building_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_building_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_building_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_address_1_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_address_1_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_address_1_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_town_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_town_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_town_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_postcode_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_postcode_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_postcode_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+missing_country_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: missing_country_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_country_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: invalid_email_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_email_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: invalid_phone_organisation_landing_page test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_phone_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+featured_item_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: featured_item_organisation_landing_page test
+  summary: Some text
+  created_by: ma1twn
+  core_data: featured_item_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_non_admin_cant_edit_content_item_feature_content_item:
+  as_a: Developer
+  i_need: To test this landing page
+  so_that: It is tested
+  title: test_non_admin_cant_edit_content_item_feature test
+  summary: This is the summary
+  created_by: ma1twn
+  core_data: test_non_admin_cant_edit_content_item_feature
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+  url_path: /departments/test-non-admin-cant-edit-content-item-feature-test
+
+for_test_deletion_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test deleting this organisation landing page
+  so_that: it is tested
+  title: For test deletion org landing page
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test deleting this organisation landing page
+  so_that: it is tested
+  title: For test unauthorized deletion organisation landing page
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_org_landing_page_output_for_preview_item:
+  as_a: Developer
+  i_need: an item that goes into review and outputs all the expected values for the redis queue
+  so_that: preview works
+  title: Preview output has all new changes test
+  summary: Summary before preview
+  created_by: mnskchg
+  core_data: test_org_landing_page_output_for_preview
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 1
+
+test_highlighted_items_order_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test the order of highlighting items
+  so_that: it is tested
+  title: For testing highlighted item ordering
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_highlighted_items_order_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_announcement_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted announcements
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_announcement_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_campaign_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted campaigns
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_campaign_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_case_study_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted case studies
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_case_study_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_corporate_information_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted corporate informations
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_corporate_information_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_event_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted events
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_event_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_guide_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted guides
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_guide_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_location_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted locations
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_location_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_person_profile_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted person profiles
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_person_profile_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_project_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted projects
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_project_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_publication_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted publications
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_publication_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_service_start_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted service starts
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_service_start_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_max_highlighted_team_profile_count_organisation_landing_page_content_item:
+  as_a: Developer
+  i_need: to test highlighting too many items
+  so_that: it is tested
+  title: For testing adding too many highlighted team profiles
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_max_highlighted_team_profile_count_organisation_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_org_landing_page_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_org_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 0
+
+test_landing_page_url_content_item:
+  as_a: developer
+  i_need: an item to get the landing page url for
+  so_that: I test that we get the landing page URL for the org that owns this item.
+  title: What's my landing page URL?
+  summary: Test that we get the landing page URL for the org that owns this item.
+  created_by: mnskchg
+  core_data: test_landing_page_url_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: mar_comms
+  status: 3
+
+test_null_last_published_version_should_not_throw_error_item:
+  as_a: developer
+  i_need: an item to get the landing page url for
+  so_that: I test that we get the landing page URL for the org that owns this item.
+  title: What's my landing page URL?
+  summary: Test that we get the landing page URL for the org that owns this item.
+  created_by: mnskchg
+  core_data: test_null_last_published_version_should_not_throw_error
+  core_data_type: OrganisationLandingPage
+  organisation: org_with_landing_page_that_has_no_last_published_ver
+  status: 0
+
+test_groups_in_output_content_item:
+  as_a: developer
+  i_need: an org landing page that belongs to an org with groups
+  so_that: I test that we get the groups and their landing page URLs in the output_attributes
+  title: What are my groups?
+  summary: Test that we get the groups and their landing page URLs in the output_attributes
+  created_by: mnskchg
+  core_data: test_groups_in_output
+  core_data_type: OrganisationLandingPage
+  organisation: org_for_test_groups_in_output
+  status: 0
+
+landing_page_for_group_in_first_group_for_org_landing_page_content_item:
+  as_a: developer
+  i_need: an org landing page that belongs to a group
+  so_that: I test that we get the groups and their landing page URLs in the output_attributes
+  title: What are my groups?
+  summary: Test that we get the groups and their landing page URLs in the output_attributes
+  created_by: mnskchg
+  core_data: landing_page_for_group_in_first_group_for_org_landing_page
+  core_data_type: OrganisationLandingPage
+  organisation: first_group_for_org_landing_page
+  status: 0
+
+test_saved_url_path_for_funnelback_content_item:
+  as_a: developer
+  i_need: an org landing page
+  so_that: I can test saving the url_path in published_item_json
+  title: Test for url_path in published_item_json
+  summary: Testing
+  created_by: tt227
+  core_data: test_saved_url_path_for_funnelback
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 0
+
+test_content_list_validation_content_item:
+  as_a: developer
+  i_need: an org landing page
+  so_that: I can test the content list when we have invalid content type
+  title: Test for content list when we have invalid content type
+  summary: Testing
+  created_by: tt227
+  core_data: test_content_list_validation
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 0
+
+test_content_list_locations_content_item:
+  as_a: developer
+  i_need: an org landing page
+  so_that: I can test the content list when we have locations selected
+  title: Test for content list when we have locations selected
+  summary: Testing
+  created_by: tt227
+  core_data: test_content_list_locations
+  core_data_type: OrganisationLandingPage
+  organisation: university_of_bath
+  status: 0
+
+test_no_content_list_content_item:
+  as_a: developer
+  i_need: an org landing page
+  so_that: I can test the content list when we have no items
+  title: Test the content list when we have no items
+  summary: Testing
+  created_by: tt227
+  core_data: test_no_content_list
+  core_data_type: OrganisationLandingPage
+  organisation: org_without_content_items
+  status: 0

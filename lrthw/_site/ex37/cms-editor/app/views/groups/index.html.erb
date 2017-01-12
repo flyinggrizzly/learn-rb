@@ -1,0 +1,30 @@
+          <section class="summary-information">
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <h1>Listing Groups</h1>
+                  <p id="notice"><%= notice %></p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <table class="content-items">
+                  <thead>
+                    <tr>
+                      <th scope="col">Title</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @groups.each do |group| %>
+                      <tr>
+                        <td class="item-title"><%= link_to group.name, edit_group_path(group) %></td>
+                      </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+
+                <%= link_to 'New Group', new_group_path, class: 'button-new' %>
+              </div>
+            </div>
+          </section>

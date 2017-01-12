@@ -1,0 +1,38 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_label:
+  name: yuFgYEgqQSkFMZwiGQKoRZlprSJzcNTWBD7gK8NKIiqCzHrvMSQ75tgLEfSvuHerw
+  description: WOLLyN2WW6ww7B3CaKfviV5raVU0q3brhrzawDgoMb40XCbc9L12akLY92c4FU47GFM5pROImYgfrY4BDQAMHSHguHPHyMpJjewcBslUSgEbebMvC3FzWLS5oM4tMUXjxWxboLyF4ikB1IcVoe8mzZ5nKj5KKBUJOw7oeIZvKhG2Tqo46g3u4h7A7e7mZk4PBhe9MuNBKh3f3WRLuK4IAvlysk7yVP3FQFD0lqYiODTGnVK5gZnJR4DmS0fgo0c
+
+research_label:
+  name: Research
+  description: This is the research label
+
+induction_label:
+  name: Induction
+  description: This is the induction label
+
+undergraduate_label:
+  name: Undergraduate
+  description: This is the undergraduate label
+
+2016_label:
+  name: 2016
+  description: This is the 2016 label
+
+2017_label:
+  name: 2017
+  description: This is the 2017 label
+
+two_word_label:
+  name: Two words
+  description: This has two words
+
+brexit_label:
+  name: Brexit
+  description: This is the brexit label
+
+worldwide_label:
+  name: Worldwide
+  description: This is the worldwide label

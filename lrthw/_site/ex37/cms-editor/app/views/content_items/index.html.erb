@@ -1,0 +1,70 @@
+          <section class="summary-information">
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <h1><%= t('.heading') %></h1>
+                <p class="summary"><%= t('.summary') %></p>
+                <%= render partial: 'shared/flash_message' %>
+              </div>
+            </div>
+          </section>
+          <!-- Find content item -->
+          <div class="row">
+            <div class="column">
+              <div class="ui-widget">
+                <label for="items"><%= t '.autocomplete_label' %></label>
+                <input id="items">
+              </div>
+            </div>
+          </div>
+          <!-- Filter content items -->
+          <div class="row">
+            <div class="columns">
+              <%= form_tag root_path, method: :get do %>
+              <div class="filters">
+                <label for=".filter_organisation_blank">Filter by owner organisation or group</label>
+                  <%= collection_select :organisation, :id, current_user_orgs, :id, :name_and_type,
+                                      { prompt: t('.filter_organisation_prompt'), include_blank: t('.filter_organisation_blank') },
+                                      { 'aria-describedby' => 'org-filter' } %>
+                <input type="submit" class="" value="<%= t('.filter_submit') %>" name="filter">
+                <a href="<%= root_path %>" class="clear-filter"><%= t('.filter_clear') %></a>
+              </div>
+              <% end %>
+            </div>
+          </div>
+          <!-- Content items table -->
+          <div class="row">
+            <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+            <% if @content_items.length == 0 && @organisation.present? %>
+              <div class="message-feedback">
+                <span><%= "#{@organisation.name} " + t('.filter_no_results') %></span>
+              </div>
+            <% else %>
+              <span class="item-count"><%= page_entries_info @content_items, entry_name: 'item' %></span>
+              <table class="content-items">
+                <caption><%= t('.summary') %></caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Status</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Content Type</th>
+                    <th scope="col">Subtype</th>
+                    <th scope="col">Recent action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <% @content_items.each do |content_item| %>
+                  <tr id="<%= "item-#{ content_item.id }" %>">
+                    <td class="item-status"><%= link_to content_item.status.humanize, edit_polymorphic_path(content_item.core_data), class: content_item.status.dasherize %></td>
+                    <td class="item-title"><%= link_to content_item.core_data_type == 'PersonProfile' ? "#{content_item.core_data.role_holder_name} – #{content_item.title}" : content_item.title, edit_polymorphic_path(content_item.core_data) %></td>
+                    <%# TODO: need to remove this hard-coded 'Landing page' content type label when we refactor OrganisationLandingPage to LandingPage %>
+                    <td class="item-type"><%= link_to content_item.core_data_type == 'OrganisationLandingPage' ? 'Landing page' : content_item.core_data_type.underscore.humanize, edit_polymorphic_path(content_item.core_data) %></td>
+                    <td class="item-subtype"><%= link_to content_item.core_data.subtype.humanize, edit_polymorphic_path(content_item.core_data) if content_item.core_data.respond_to? :subtype %></td>
+                    <td class="item-recent-action"><%= link_to "#{content_item.updated_at.to_formatted_s(:day_month_year_time)} by #{content_item.last_modified_by}", edit_polymorphic_path(content_item.core_data) %></td>
+                  </tr>
+                <% end %>
+                </tbody>
+              </table>
+              <%= paginate @content_items %>
+            <% end %>
+            </div>
+          </div>

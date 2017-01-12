@@ -1,0 +1,123 @@
+maximum_length_collection_content_item:
+  as_a: Developer
+  i_need: a collection with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths collection - BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1Cezahasdfsdafa
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: maximum_length_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 3
+  labels:
+    - induction_label
+    - undergraduate_label
+    - 2017_label
+
+test_too_many_labels_collection_content_item:
+  as_a: Developer
+  i_need: a collection with too many labels
+  so_that: if someone tries to have too many labels they see a validation error
+  title: Too many labels
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: test_too_many_labels_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 3
+  labels:
+    - maximum_length_label
+    - research_label
+    - induction_label
+    - undergraduate_label
+    - 2016_label
+    - 2017_label
+    - two_word_label
+    - brexit_label
+    - worldwide_label
+
+test_cannot_edit_labels_collection_content_item:
+  as_a: Developer
+  i_need: a collection
+  so_that: check cannot edit labels
+  title: Have labels
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: test_cannot_edit_labels_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - induction_label
+    - undergraduate_label
+    - 2016_label
+
+test_non_admin_cannot_edit_collection_content_item:
+  as_a: Developer
+  i_need: a collection
+  so_that: check non-admin cannot edit
+  title: Some content
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_non_admin_cannot_edit_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - induction_label
+    - 2016_label
+
+test_invalid_no_label_collection_content_item:
+  as_a: Developer
+  i_need: a collection
+  so_that: check no labels invalid
+  title: Have no labels
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: test_invalid_no_label_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 0
+
+test_unique_labels_collection_content_item:
+  as_a: Developer
+  i_need: a collection
+  so_that: check it is unique
+  title: Have non-unique labels
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: test_unique_labels_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - induction_label
+    - undergraduate_label
+
+test_deletion_collection_content_item:
+  as_a: Developer
+  i_need: to test deleting this collection
+  so_that: it is tested
+  title: For test deletion collection
+  summary: Summary
+  created_by: tt227
+  core_data: test_deletion_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 3
+  labels:
+    - induction_label
+
+test_add_sections_collection_content_item:
+  as_a: Developer
+  i_need: to test editing this collection
+  so_that: it is tested
+  title: For test edit collection
+  summary: Summary
+  created_by: tt227
+  core_data: test_add_sections_collection
+  core_data_type: Collection
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - undergraduate_label

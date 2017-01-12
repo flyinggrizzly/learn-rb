@@ -1,0 +1,60 @@
+en:
+  team_profiles:
+    fieldset_title: 'About this team'
+    title: 'Name of team'
+    title_microcopy: 'Enter the name this team is known by. This should be no more than 65 characters. If you cannot rewrite your title to fit this, you can use up to 100 characters. The last 35 will not show in search results.'
+    title_placeholder: ''
+    summary: 'Team summary'
+    summary_microcopy: 'Describe the purpose of the team and its responsibilities. This should be no more than 160 characters.'
+    summary_placeholder: ''
+
+    form:
+      fieldset_subtype: 'Subtype'
+      subtype_microcopy: 'Select the subtype that best describes this team.'
+      subtype_academic_team: 'Academic team'
+      subtype_professional_service_team: 'Professional service team'
+      subtype_leadership_team: 'Leadership team'
+      subtype_statutory_body: 'Statutory body'
+      subtype_committee: 'Committee'
+      subtype_working_group: 'Working group'
+      fieldset_overview: 'Overview'
+      duties: 'Duties'
+      duties_microcopy: "Explain what the team's main responsibilities are. This should be no more than 1,000 characters."
+      duties_placeholder: ''
+
+      fieldset_team_members: 'Members'
+      membership_type: How will you create your team?
+      membership_type_profiles: Select from Person Profiles – every team member must have a Person Profile page
+      membership_type_subsets: Create manually - include any member of staff and define subsets
+      fieldset_profiles: Select from Person Profiles
+      profiles_microcopy: "Select existing profiles to add to the team. Add a number to indicate which order you want each team member to appear in. If you don't add a number, those members will be ordered alphabetically based on their first name."
+      profiles_microcopy_js: "Select existing profiles to add to the team. Drag and drop the fields to change their order."
+      profiles_add_to_team: 'Add to team'
+      fieldset_subsets: Create manually
+      subsets_microcopy: 'List the members of your team. If the structure of your team has different components, for example a sub-committee, you can split it into subsets.'
+
+      fieldset_contact_details: 'Enquiries'
+      contact_name: 'Contact name'
+      contact_name_microcopy: 'Enter the name of a service or single point of contact for enquiries.'
+      contact_name_placeholder: 'eg IT Helpdesk'
+      contact_email: 'Contact email'
+      contact_email_microcopy: 'Provide a team or service email address.'
+      contact_email_placeholder: 'eg it-servicedesk@bath.ac.uk'
+      contact_phone: 'Contact telephone number'
+      contact_phone_microcopy: 'Provide a team telephone number. For UK numbers, do not use the international prefix (+44).'
+      contact_phone_placeholder: 'eg 01225 388388'
+
+    team_membership:
+      membership_prompt: 'Select a team member'
+      membership_blank: 'No member'
+      team_member: 'Member'
+      team_member_order: 'Order in team'
+
+    subset:
+      subset: 'Team subset'
+      title: 'Title'
+      title_microcopy: 'Enter an optional title for this subset. This should be no more than 65 characters.'
+      title_placeholder: 'eg Open Day Team leaders'
+      membership: 'Membership'
+      membership_microcopy: 'Create a bulleted list of your team members here. Provide their name first, followed by their job role. Use an inline link to link to a person finder entry. This should be no more than 50,000 characters.'
+      membership_placeholder: '- John Smith, Press Officer'

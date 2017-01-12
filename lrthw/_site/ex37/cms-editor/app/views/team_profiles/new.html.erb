@@ -1,0 +1,10 @@
+<%= render partial: 'shared/status_indicator', locals: { ci: @team_profile.content_item } %>
+<section class="summary-information">
+  <div class="row">
+    <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+      <h1>New team profile</h1>
+      <%= render partial: 'shared/flash_message' %>
+    </div>
+  </div>
+</section>
+<%= render 'form' %>

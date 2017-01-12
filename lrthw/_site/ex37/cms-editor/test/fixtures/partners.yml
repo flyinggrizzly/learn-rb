@@ -1,0 +1,55 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_lengths_valid_partner:
+  name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQ
+  logo_url: http://www.bath.ac.uk/2PpoJtAgemirBNsxukANfwBHLFfoFnEZGgtIkRoFJgfRyOLhh1hXjE81HIHQq1793P3RQGajzURjasFxXeOCwE9vh1n0tWnSkEFWhULClz90KWN24fiI2kCwCRrrTbYs24JcA8kQ6h3jv3jVGYBOUeNvaCJcPVScUNNAkubgiNRKKvvUCG8R8wH9WQips5r6oNOUSWoxAlfLitHIoO4WBV5omAiAf9xTyoHGgyGLE
+  logo_alt: 2PpoJtAgemirBNsxukANfwBHLFfoFnEZGgtIkRoFJgfRyOLhh1hXjE81HIHQq1793P3RQGajzURjasFxXeOCwE9vh1n0tWnSkEFWhULClz90KWN24fiI2kCwCRrrTbYs24JcA8kQ6h3jv3jVGYBOUeNvaCJcPVScUNNAkubgiNRKKvvUCG8R8wH9WQips5r6oNOUSWoxAlfLitHIoO4WBV5omAiAf9xTyoHGgyGLELFzlL7iuhE3kHQS2infmKs
+  link_url: http://www.bath.ac.uk/2PpoJtAgemirBNsxukANfwBHLFfoFnEZGgtIkRoFJgfRyOLhh1hXjE81HIHQq1793P3RQGajzURjasFxXeOCwE9vh1n0tWnSkEFWhULClz90KWN24fiI2kCwCRrrTbYs24JcA8kQ6h3jv3jVGYBOUeNvaCJcPVScUNNAkubgiNRKKvvUCG8R8wH9WQips5r6oNOUSWoxAlfLitHIoO4WBV5omAiAf9xTyoHGgyGLE
+  link_text: 2PpoJtAgemirBNsxukANfwBHLFfoFnEZGgtIkRoFJgfRyOLhh1hXjE81HIHQq1793P3RQGajzURjasFxXeOCwE9vh1n0tWnSkEFWhULClz90KWN24fiI2kCwCRrrTbYs24JcA8kQ6h3jv3jVGYBOUeNvaCJcPVScUNNAkubgiNRKKvvUCG8R8wH9WQips5r6oNOUSWoxAlfLitHIoO4WBV5omAiAf9xTyoHGgyGLELFzlL7iuhE3kHQS2infmKs
+
+missing_logo_alt_partner:
+  name: Name
+  logo_url: http://www.bath.ac.uk/madeup
+
+missing_logo_url_partner:
+  name: Name
+  logo_alt: logo alt
+
+missing_link_text_partner:
+  name: Name
+  link_url: http://www.bath.ac.uk/madeup
+
+missing_link_url_partner:
+  name: Name
+  link_text: link text
+
+logo_url_invalid_partner:
+  name: Name
+  logo_url: invalidurl
+  logo_alt: logo alt
+
+link_url_invalid_partner:
+  name: Name
+  link_url: invalidurl
+  link_text: link text
+
+university_of_york:
+  name: University of York
+  project: maximum_length_values_project
+
+saatchi_saatchi:
+  name: Saatchi and Saatchi
+  campaign: maximum_length_values_campaign
+
+for_test_deletion_campaign_partner:
+  name: Delete me please
+  campaign: for_test_deletion_campaign
+
+for_test_deletion_project_partner:
+  name: Delete me as well please
+  project: for_test_deletion_project
+
+for_test_save_published_version_for_funnelback_project_partner:
+  name: Test Partner
+  project: test_save_published_version_for_funnelback_project

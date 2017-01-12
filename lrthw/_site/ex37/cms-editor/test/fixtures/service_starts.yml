@@ -1,0 +1,69 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_service_start:
+  usage_instructions: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVABC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgp
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_label: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2y
+  call_to_action_content: http://www.bath.ac.uk/BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjS
+  contact_name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  contact_email: bbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+missing_usage_instructions_service_start:
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label
+
+invalid_email_service_start:
+  usage_instructions: Invalid email
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_label: Label
+  contact_name: Bob
+  contact_email: invalidemail
+
+invalid_phone_service_start:
+  usage_instructions: Invalid phone
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_label: Label
+  contact_name: Steve
+  contact_phone: invalidphone
+
+for_test_survive_deletion_service_start:
+  usage_instructions: Survive deletion
+  guides: for_test_deletion_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label
+
+for_test_deletion_service_start:
+  usage_instructions: Delete me
+  guides: for_test_survive_deletion_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label
+
+for_test_unauthorized_deletion_service_start:
+  usage_instructions: Do not delete me
+  guides: for_test_survive_deletion_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label
+
+test_service_start_output_for_preview:
+  usage_instructions: This is what I say before Review
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label
+
+test_status_does_not_change_on_validation_error_service_start:
+  usage_instructions: blah
+  guides: tea_making_guide
+  call_to_action_type: url
+  call_to_action_content: http://www.bath.ac.uk/study
+  call_to_action_label: Label

@@ -1,0 +1,65 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_external_item:
+  subtype: external
+  external_url: http://flickr.com/amlwKXmfg8USZehzFoe9mqXgYXSZTXt00OOpwpti9TlouIb4QeSkBCmetlzNq6qzSBoLlyWweLpQhAMzNq6qzSBoLlyWweLpQhAMzNq6qzSBoLlyWweLpQhAMzNq6qzSBoLlyWweLpQhAMBUz6eNi2GZVTJymEXHNaExSTCbBZRnu31VYz1Yo76W6p074C8s628PIHVYMKQiaBikN8cAw9SsmMcB1Ptg7Xg8TwKYJQcrL
+  featured_image: http://www.bath.ac.uk/BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjS
+  featured_image_alt: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  featured_image_caption: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+
+missing_external_url_external_item:
+  subtype: university
+
+invalid_featured_image_external_item:
+  subtype: university
+  external_url: http://blogs.bath.ac.uk/iprblog/2016/07/18/the-brexit-referendum-and-the-future-of-the-eu/
+  featured_image: invalid
+  featured_image_alt: 1oe3Ct4UcKbL4j
+  featured_image_caption: 1oe3Ct4UcKbL4j
+
+missing_featured_image_alt_external_item:
+  subtype: university
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_caption: 1oe3Ct4UcKbL4j
+
+missing_featured_image_caption_external_item:
+  subtype: university
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: 1oe3Ct4UcKbL4j
+
+invalid_url_external_item:
+  subtype: university
+  external_url: notaurl
+
+invalid_university_url_external_item:
+  subtype: university
+  external_url: http://www.vimeo.com/13213516
+
+invalid_university_content_publisher_url_external_item:
+  subtype: university
+  external_url: http://www.bath.ac.uk/profiles/pro-vc-research-jane-millar
+
+invalid_external_url_external_item:
+  subtype: external
+  external_url: http://blogs.bath.ac.uk/ipr/
+
+test_deletion_external_item:
+  subtype: university
+  external_url: http://blogs.bath.ac.uk/iprblog/2016/07/18/the-brexit-referendum-and-the-future-of-the-eu/
+
+test_unauthorized_deletion_external_item:
+  subtype: university
+  external_url: http://blogs.bath.ac.uk/iprblog/2016/07/18/the-brexit-referendum-and-the-future-of-the-eu/
+
+test_status_does_not_change_on_validation_error_external_item:
+  subtype: university
+  external_url: http://blogs.bath.ac.uk/iprblog/2016/07/18/the-brexit-referendum-and-the-future-of-the-eu/
+
+test_one_for_landing_page_external_item:
+  subtype: university
+  external_url: http://blogs.bath.ac.uk/iprblog/2016/07/18/the-brexit-referendum-and-the-future-of-the-eu/
+
+test_two_for_landing_page_external_item:
+  subtype: external
+  external_url: https://vimeo.com/175507482

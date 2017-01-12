@@ -1,0 +1,15 @@
+maximum_length_collection: {}
+
+test_too_many_labels_collection: {}
+
+test_cannot_edit_labels_collection: {}
+
+test_non_admin_cannot_edit_collection: {}
+
+test_invalid_no_label_collection: {}
+
+test_unique_labels_collection: {}
+
+test_deletion_collection: {}
+
+test_add_sections_collection: {}

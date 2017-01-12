@@ -1,0 +1,16 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_collection_section:
+  title: YYwQ2oG5LMVVYOtFGEFcYplnoxaDzAg5CS6ClnjDuXYxVp6qvtBM1iF3SZ3xzunIH
+  summary: vtJBvuoYoKE3xTjojmny1lCmB8BE3Zsa8nfasVgrCPT90kTrNo9GqTjQKOOteou9OIcvrAIQ0UDyzqIN14ptZokGThubVpkzNgtQW6TrTm3H2GNO6esAqythqRivksDGe5ZqrW30vR4btyoVq2NgEYhkUr8ifH7c1ZmHL98CT0MWfJNkIzW8wZITFOwySot8CtBbobW9NSBzHDOk7V1BBEj57obesPHRCm9QyRHj0tub4K31jXGSSSh8e0rMkX2
+
+missing_title_collection_section:
+  summary: Summary for missing_title_collection_section
+
+missing_summary_collection_section:
+  title: missing_summary_collection_section
+
+missing_section_item_collection_section:
+  title: missing_section_item_collection_section
+  summary: Summary for missing_section_item_collection_section

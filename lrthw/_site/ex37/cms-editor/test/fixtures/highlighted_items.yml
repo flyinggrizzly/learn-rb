@@ -1,0 +1,70 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+valid_highlighted_item:
+  item: 10000
+  item_type: Announcement
+  item_order: 0
+
+invalid_item_highlighted_item:
+  item: invalid
+  item_type: Announcement
+  item_order: 0
+
+missing_item_highlighted_item:
+  item_type: Announcement
+  item_order: 0
+
+invalid_item_type_highlighted_item:
+  item: 10000
+  item_type: NotAContentType
+  item_order: 0
+
+missing_item_type_highlighted_item:
+  item: 10000
+  item_order: 0
+
+invalid_order_highlighted_item:
+  item: 10000
+  item_type: Announcement
+  item_order: invalid
+
+missing_order_highlighted_item:
+  item: 10000
+  item_type: Announcement
+
+test_order_1_highlighted_item:
+  item: 10000
+  item_type: Campaign
+  item_order: 3
+  olp_campaign: test_highlighted_items_order_organisation_landing_page
+
+test_order_2_highlighted_item:
+  item: 10001
+  item_type: Campaign
+  item_order: 4
+  olp_campaign: test_highlighted_items_order_organisation_landing_page
+
+test_order_3_highlighted_item:
+  item: 10002
+  item_type: Campaign
+  item_order: 2
+  olp_campaign: test_highlighted_items_order_organisation_landing_page
+
+test_order_4_highlighted_item:
+  item: 10003
+  item_type: Campaign
+  item_order: 5
+  olp_campaign: test_highlighted_items_order_organisation_landing_page
+
+test_order_5_highlighted_item:
+  item: 10004
+  item_type: Campaign
+  item_order: 0
+  olp_campaign: test_highlighted_items_order_organisation_landing_page
+
+test_order_6_highlighted_item:
+  item: 10005
+  item_type: Campaign
+  item_order: 1
+  olp_campaign: test_highlighted_items_order_organisation_landing_page

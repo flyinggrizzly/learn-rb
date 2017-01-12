@@ -1,0 +1,115 @@
+body {
+  color: #333333;
+  ui-scale: 1;
+  font-size: 16;
+  font-family: "Source Sans Pro", Helvetica, Verdana, sans-serif;
+  background-color: white;
+  line-height: 1.1;
+}
+li[data-type="note"] {
+  font-style: italic;
+}
+li[data-type="task"] {
+  font-style: normal;
+}
+li[data-type="project"] {
+  font-weight: bold;
+  line-height: 1.5;
+}
+li[data-done] > span[content] {
+  text-decoration: line-through;
+}
+span[link] {
+  cursor: pointer;
+  color: #fb3332;
+}
+span[link^="button"] {
+  color: #333333;
+}
+span[link^="filter"] {
+  color: #333333;
+}
+span[tag] {
+  font-size: 16;
+  font-style: normal;
+  font-weight: normal;
+  color: #b8b8b8;
+}
+li[data-type=task],
+li[data-type=note] {
+  color: #333333;
+}
+span[link] a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:active,
+a:visited {
+  color: #fb3332;
+}
+ul,
+ol {
+  margin: 0 auto 0 auto;
+}
+li {
+  font-weight: normal;
+  list-style-type: disc;
+  margin: 0;
+}
+li::marker {
+  color: none;
+}
+.extra-indent {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul,
+ul.extra-indent {
+  padding-left: 20;
+}
+#taskpaper-document .taskpaper-root {
+  margin-left: 5px;
+}
+.task-prefix {
+  color: #888;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #555;
+}
+.sidebar [data-type=project] {
+  font-size: 16px;
+  font-weight: normal;
+}
+.sidebar,
+.sidebar ul {
+  padding-left: 10px;
+}
+.sidebar li {
+  list-style-type: none;
+}
+#taskpaper-sidebar,
+#taskpaper-document {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0;
+}
+#taskpaper-sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  overflow: scroll;
+  background-color: #f5f5f5;
+}
+#taskpaper-document {
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
+::selection {
+  background: #fec2c2;
+}

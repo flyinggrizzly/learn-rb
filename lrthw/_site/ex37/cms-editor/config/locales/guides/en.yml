@@ -1,0 +1,75 @@
+en:
+  guides:
+    fieldset_title: 'About this guide'
+    title: 'Name of guide'
+    title_microcopy: 'Enter a descriptive name for this guide. This should be no more than 65 characters. If you cannot rewrite your title to fit this, you can use up to 100 characters. The last 35 will not show in search results.'
+    title_placeholder: 'eg Making alternative exam arrangements'
+    summary: 'Guide summary'
+    summary_microcopy: 'Describe what this guide helps users to do. This should be no more than 160 characters.'
+    summary_placeholder: ''
+
+    form:
+      fieldset_subtype: 'Subtype'
+      subtype_microcopy: 'Select the subtype that best describes this guide.'
+      subtype_basic_guide: 'Basic guide'
+      subtype_detailed_guide: 'Detailed guide'
+
+      fieldset_call_to_action: 'Call to action'
+      call_to_action_type: 'Pick a type of call to action'
+      call_to_action_type_microcopy: 'What do you want users to do next? This could be visiting another page or contacting someone. If you choose not to have a call to action, you must give a reason.'
+      call_to_action_type_url: 'URL'
+      call_to_action_type_email: 'Email address'
+      call_to_action_type_phone: 'Telephone number'
+      call_to_action_type_none: 'No call to action'
+      call_to_action_label: 'Call to action link text'
+      call_to_action_label_microcopy: "Provide text for a call to action link. If your call to action is an email address or phone number, do not include this in the text. It will be taken from the 'Call to action target'. This should be no more than 65 characters."
+      call_to_action_label_placeholder: 'eg Apply for a place, Email us at, Call us at'
+      call_to_action_content: 'Call to action target'
+      call_to_action_content_microcopy: 'Enter the URL, email address or phone number you want to link to. This should be no more than 255 characters.'
+      call_to_action_content_placeholder: 'eg http://blogs.bath.ac.uk, web-support@bath.ac.uk, 01225 388388'
+      call_to_action_reason: 'Reason for no call to action'
+      call_to_action_reason_microcopy: "If you selected 'No call to action', explain why the content doesn't need a call to action here. This should be no more than 255 characters."
+      call_to_action_reason_placeholder: ''
+
+      fieldset_image: 'Featured image'
+      featured_image: 'Featured image URL'
+      featured_image_microcopy: 'Enter the URL of an image to illustrate the guide.'
+      featured_image_placeholder: 'eg https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg'
+      featured_image_alt: 'Featured image alt text'
+      featured_image_alt_microcopy: "Describe this photo for users who can't see the image. This will not be visible when the image is displayed. This should be no more than 255 characters."
+      featured_image_alt_placeholder: 'eg A screenshot of Microsoft Outlook account panel'
+      featured_image_caption: 'Featured image caption'
+      featured_image_caption_microcopy: 'Give your image a meaningful and interesting caption. This should be no more than 255 characters.'
+      featured_image_caption_placeholder: 'eg This is the panel you need to use in Microsoft Outlook to manage your account'
+
+      object: 'Add media'
+      object_title: 'Title'
+      object_title_microcopy: 'Paste the title of the piece of media you are using to support your guide. This should be no more than 160 characters.'
+      object_title_placeholder: 'eg How to enable your vacation message in Microsoft Outlook'
+      object_embed_code: 'Embed code'
+      object_embed_code_microcopy: 'Paste the embed code of your media here.'
+      object_embed_code_placeholder: 'eg <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>'
+
+      fieldset_contact_details: 'Enquiries'
+      contact_name: 'Contact name'
+      contact_name_microcopy: 'Provide the name of the person, team or service who should be contacted for enquiries.'
+      contact_name_placeholder: ''
+      contact_email: 'Contact email'
+      contact_email_microcopy: 'Provide an enquiries email address.'
+      contact_email_placeholder: ''
+      contact_phone: 'Contact telephone number'
+      contact_phone_microcopy: 'Provide an enquiries telephone number. For UK numbers, do not use the international prefix (+44).'
+      contact_phone_placeholder: 'eg 01225 388388'
+
+      fieldset_sections: 'Sections'
+      fieldset_sections_microcopy: 'A basic guide will have one section. A detailed guide will have a minimum of two sections, but you can add more. Each section should be a clear step in a process, leading to a call to action or next step where possible.'
+
+    section:
+      section: 'Section'
+      title: 'Name of section'
+      title_microcopy: 'Enter a descriptive name for this section. This should be no more than 65 characters.'
+      title_placeholder: 'eg Making alternative exam arrangements'
+      fieldset_body_content: 'Section content'
+      body_content: 'Body'
+      body_content_microcopy: 'Write your guide here. Write concisely and use active voice. Format the content by following our formatting guide. This should be no more than 50,000 characters.'
+      body_content_placeholder: ''

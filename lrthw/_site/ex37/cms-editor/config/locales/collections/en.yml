@@ -1,0 +1,28 @@
+en:
+  collections:
+    fieldset_title: 'About this collection'
+    title: 'Name of collection'
+    title_microcopy: 'Enter a title that describes the theme of this collection. It should be no more than 65 characters. If you cannot rewrite your title to fit this, you can use up to 100 characters. The last 35 will not show in search results.'
+    title_placeholder: ''
+    summary: 'Collection summary'
+    summary_microcopy: 'Describe what this collection is about and what information it contains. This also appears in search results. It should be no more than 160 characters.'
+    summary_placeholder: ''
+    labels_microcopy: 'Select the labels which describe the content you want to include. Only items with these labels can be included in the collection.'
+
+    form:
+      fieldset_section: 'Sections'
+      fieldset_section_microcopy: 'The collection should have at least one section, but you can add as many as you need.'
+
+    collection_section:
+      collection_section: 'Section'
+      title: 'Name of section'
+      title_microcopy: 'Enter a descriptive name for this section. This should be no more than 65 characters.'
+      title_placeholder: ''
+      summary: 'Section summary'
+      summary_microcopy: 'Describe what the content in this section is about. This should be no more than 255 characters.'
+      summary_placeholder: ''
+
+    section_item:
+      section_item: 'Item'
+      section_item_prompt: 'Select an item'
+      section_item_blank: 'No item'

@@ -1,0 +1,14 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_collection_section_section_item:
+  collection_section: maximum_length_values_collection_section
+  content_item: maximum_length_announcement_content_item
+
+missing_title_collection_section_section_item:
+  collection_section: missing_title_collection_section
+  content_item: maximum_length_announcement_content_item
+
+missing_summary_collection_section_section_item:
+  collection_section: missing_summary_collection_section
+  content_item: maximum_length_announcement_content_item

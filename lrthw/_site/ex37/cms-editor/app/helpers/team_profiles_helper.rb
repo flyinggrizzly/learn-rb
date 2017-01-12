@@ -1,0 +1,2 @@
+module TeamProfilesHelper
+end

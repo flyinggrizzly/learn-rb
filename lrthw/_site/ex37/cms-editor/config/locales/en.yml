@@ -1,0 +1,298 @@
+CALL_TO_ACTION_VALIDATION_DEFAULTS: &CALL_TO_ACTION_VALIDATION_DEFAULTS
+  call_to_action_type:
+    inclusion: "You must select a type of call to action"
+  call_to_action_label:
+    blank: "'Call to action link text' cannot be blank"
+  call_to_action_content:
+    blank: "'Call to action target' cannot be blank"
+    url_format: "'Call to action target' is an invalid URL"
+    email_format: "'Call to action target' is an invalid email address"
+    phone_format: "'Call to action target' is an invalid phone number"
+  call_to_action_reason:
+    blank: "'Reason for no call to action' cannot be blank"
+
+en:
+  # Validation messages
+  activerecord:
+    errors:
+      messages:
+        too_long: "'%{attribute}' should be no longer than %{count} characters"
+        blank: "'%{attribute}' cannot be blank"
+        url_format: "'%{attribute}' is an invalid URL"
+        non_content_publisher_url: "'%{attribute}' cannot be a page from the Content Publisher"
+        phone_format: "'%{attribute}' is an invalid phone number"
+        email_format: "'%{attribute}' is an invalid email address"
+        after: "%{attribute} date and time must be after the start date and time"
+        not_a_number: "'%{attribute}' must be a number"
+      models:
+        content_item:
+          labels_too_many: 'There should be no more than 8 labels selected'
+          labels_too_few: 'There should be at least 1 label selected'
+          labels_not_unique: 'A collection with these labels already exists'
+          attributes:
+            as_a:
+              blank: "'As...' cannot be blank"
+              too_long: "'As...' should be no longer than %{count} characters"
+            i_need:
+              blank: "'I need...' cannot be blank"
+              too_long: "'I need...' should be no longer than %{count} characters"
+            so_that:
+              blank: "'So I can...' cannot be blank"
+              too_long: "'So I can...' should be no longer than %{count} characters"
+            title:
+              blank: "'Name' cannot be blank"
+              too_long: "'Name' should be no longer than %{count} characters"
+            summary:
+              blank: "'Summary' cannot be blank"
+              too_long: "'Summary' should be no longer than %{count} characters"
+        guide:
+          basic_guide_no_section: "A basic guide must have a section."
+          sections_too_many: "A basic guide should only have one section. You must use a 'Detailed guide' for multiple sections."
+          sections_too_few: "A detailed guide must have at least two sections. Please write another section or select 'Basic guide'."
+          attributes:
+            <<: *CALL_TO_ACTION_VALIDATION_DEFAULTS
+        event:
+          on_campus_blank: "'%{attribute}' must be blank if the event is off campus"
+          off_campus_blank: "'%{attribute}' must be blank if the event is on campus"
+          off_campus_required: "'%{attribute}' cannot be blank if the event is off campus"
+          attributes:
+            location:
+              inclusion: "%{attribute} must be set to 'on campus' or 'off campus'"
+            venue:
+              blank: "'%{attribute}' cannot be blank if the event is on campus and no building is specified"
+            building:
+              blank: "'%{attribute}' cannot be blank if the event is on campus and a room number is specified"
+            booking_email:
+              blank: "'%{attribute}' cannot be blank if the event's booking method is 'Email'"
+            booking_link:
+              blank: "'%{attribute}' cannot be blank if the event's booking method is 'Website' or 'Booking application'"
+            price:
+              blank: "'%{attribute}' cannot be blank if there is a charge"
+        external_item:
+          not_a_uob_page: "The 'University of Bath content' subtype must have a bath.ac.uk URL as 'External URL'"
+          not_an_external_page: "The 'External content' subtype cannot have a bath.ac.uk URL as 'External URL'"
+        case_study:
+          attributes:
+            subtype:
+              inclusion: "%{attribute} must be set to 'research' or 'student'"
+            quote_attribution:
+              blank: "'%{attribute}' cannot be blank if there is a quote"
+            featured_image_alt:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            featured_image_caption:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            object_title:
+              blank: "'Label for media' cannot be blank if there is code for embedded media"
+            object_embed_code:
+              blank: "'%{attribute}' cannot be blank if there is a label for embedded media"
+            <<: *CALL_TO_ACTION_VALIDATION_DEFAULTS
+        corporate_information:
+          attributes:
+            featured_image_alt:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            featured_image_caption:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            object_title:
+              blank: "'Label for media' cannot be blank if there is code for embedded media"
+            object_embed_code:
+              blank: "'%{attribute}' cannot be blank if there is a label for embedded media"
+            <<: *CALL_TO_ACTION_VALIDATION_DEFAULTS
+        partner:
+          attributes:
+            name:
+              blank: "'Name of partner' cannot be blank"
+            logo_alt:
+              blank: "'Partner's logo alt text' cannot be blank if there is a URL for a partner logo"
+            logo_url:
+              blank: "'Partner's logo URL' cannot be blank if there is alt text for a partner logo"
+            link_text:
+              blank: "'Partner link text' cannot be blank if there is a URL for a partner link"
+            link_url:
+              blank: "'Partner link URL' cannot be blank if there is text for a partner link"
+        phase:
+          without_pound_sign: "'Phase budget' should not include a pound sign (£)"
+          attributes:
+            title:
+              blank: "'Phase title' cannot be blank"
+            summary:
+              blank: "'Phase summary' cannot be blank"
+          after: "Phase end date must be after the start date"
+        campaign:
+          after: "Campaign 'end date' must be after the 'start date'"
+          require_one_benefit: 'You must have at least one benefit'
+        benefit:
+          attributes:
+            description:
+              blank: "'Description of benefit' cannot be blank"
+            <<: *CALL_TO_ACTION_VALIDATION_DEFAULTS
+            image_alt:
+              blank: "'Benefit's image alt text' cannot be blank if there is a Benefit image URL"
+            image_caption:
+              blank: "'Benefit's image caption' cannot be blank if there is a Benefit image URL"
+            object_title:
+              blank: "'Benefit's label for media' cannot be blank if there is code for embedded media"
+            object_embed_code:
+              blank: "'Benefit's embed code' cannot be blank if there is a label for embedded media"
+        announcement:
+          attributes:
+            featured_image_alt:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            featured_image_caption:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            object_title:
+              blank: "'Label for media' cannot be blank if there is code for embedded media"
+            object_embed_code:
+              blank: "'%{attribute}' cannot be blank if there is a label for embedded media"
+            <<: *CALL_TO_ACTION_VALIDATION_DEFAULTS
+        location:
+          on_campus_blank: "'%{attribute}' must be blank if the location is off campus"
+          off_campus_blank: "'%{attribute}' must be blank if the location is on campus"
+          on_campus_required: "'%{attribute}' cannot be blank if the location is on campus"
+          off_campus_required: "'%{attribute}' cannot be blank if the location is off campus"
+          attributes:
+            on_off_campus:
+              blank: "Location must be set to 'on campus' or 'off campus'"
+              inclusion: "Location must be set to 'on campus' or 'off campus'"
+            featured_image_alt:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            featured_image_caption:
+              blank: "'%{attribute}' cannot be blank if there is a featured image"
+            latitude:
+              blank: "'%{attribute}' cannot be blank if there is a longitude"
+              greater_than_or_equal_to: "'%{attribute}' must be between -90 and 90"
+              less_than_or_equal_to: "'%{attribute}' must be between -90 and 90"
+            longitude:
+              blank: "'%{attribute}' cannot be blank if there is a latitude"
+              greater_than_or_equal_to: "'%{attribute}' must be between -180 and 180"
+              less_than_or_equal_to: "'%{attribute}' must be between -180 and 180"
+        project:
+          without_pound_sign: "'Budget' should not include a pound sign (£)"
+          attributes:
+            subtype:
+              inclusion: "%{attribute} must be set to 'research' or 'services'"
+        publication:
+          attributes:
+            restricted:
+              inclusion: 'You must choose whether or not to restrict access to attachments'
+            publication_attachments:
+              blank: 'You must have at least one attachment'
+        organisation_landing_page:
+          on_campus_blank: "'%{attribute}' must be blank if the location is off campus"
+          off_campus_blank: "'%{attribute}' must be blank if the location is on campus"
+          on_campus_required: "'%{attribute}' cannot be blank if the location is on campus"
+          off_campus_required: "'%{attribute}' cannot be blank if the location is off campus"
+          attributes:
+            about:
+              blank: "'Organisation description' cannot be blank"
+            on_off_campus:
+              blank: "Location must be set to 'on campus' or 'off campus'"
+              inclusion: "Location must be set to 'on campus' or 'off campus'"
+            content_list:
+              inclusion: "Content list must be set to groups, services, teams or locations"
+        service_start:
+          attributes:
+            call_to_action_type:
+              inclusion: "You must select how users will access the service"
+            call_to_action_label:
+              blank: "'Service link text' cannot be blank"
+            call_to_action_content:
+              blank: "'Service link target' cannot be blank"
+            call_to_action_reason:
+              blank: "'Reason for no service link' cannot be blank"
+        team_membership:
+          attributes:
+            member_order:
+              not_a_number: "'Order in team' must be a number, or left blank"
+              greater_than_or_equal_to: "'Order in team' must be at least 1, or left blank"
+        team_profile:
+          profiles_team_no_profiles: "You must have at least one Person Profile in a 'Select from Person Profiles' team"
+          subsets_team_no_subsets: "You must have at least one subset in a 'Create manually' team"
+          subsets_team_no_profiles: "You must not have Person Profiles in a 'Create manually' team"
+          profiles_team_no_subsets: "You must not have subsets in a 'Select from Person Profiles' team"
+          attributes:
+            membership_type:
+              inclusion: "You must select if you are creating the team by 'Select from Person Profiles' or 'Create manually'"
+        collection_section:
+          collection_section_no_items: You must have at least one item in a section
+
+
+  # Override CarrierWave validation message
+  errors:
+    messages:
+      extension_white_list_error: "The file must be a %{allowed_types}"
+
+  # Messages for URL uniqueness check (used in url_constructable.rb)
+  url_must_be_unique: "has already been used for this content type. It must be unique."
+  url_must_be_unique_person: "The combination 'Name of role' and 'Role holder name' has been used. You must provide a unique combination."
+
+  # Views in the shared folder
+  shared:
+    validation_errors:
+      error_prefix: 'Before we can save this you need to fix:'
+    partner:
+      partner: 'Partner'
+      name: 'Name of partner'
+      name_microcopy: 'Enter the name of an external partner organisation.'
+      name_placeholder: 'eg Acme Inc'
+      logo_url: "Partner's logo URL"
+      logo_url_microcopy: "If you are using this partner's logo, enter the URL of the image."
+      logo_url_placeholder: 'eg https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg'
+      logo_alt: "Partner's logo alt text"
+      logo_alt_microcopy: "Describe the image for users who are unable to see it. This will not be visible when the image is displayed. This should be no more than 255 characters."
+      logo_alt_placeholder: 'eg Logo for Acme Inc'
+      link_text: 'Partner link text'
+      link_text_microcopy: "Provide text for a link to more information about this partner, like their website."
+      link_text_placeholder: 'eg Acme Inc website'
+      link_url: 'Partner link URL'
+      link_url_microcopy: "Provide the URL for further information about this partner."
+      link_url_placeholder: 'eg http://www.acme.inc/widgets'
+    content_item:
+      title_maxlength: 100
+      title_warnlength: 65
+      summary_maxlength: 160
+      fieldset_labels: 'Labels'
+      labels_microcopy: 'Select the labels that describe what this content is about. You can add up to eight labels.'
+      labels_add_to_content_item: 'Add label'
+    content_item_display_only:
+      fieldset_user_need: 'User need'
+      no_permission_html: 'Only Admins are able to edit this information. If you need to make any changes please contact <a href="mailto:web-support@bath.ac.uk">web-support@bath.ac.uk</a>'
+    display_org:
+      no_permission_html: "You can't change who is responsible for this content item. If you need to change the owner, contact the editor of the Organisation or Group identified below or email <a href=\"mailto:web-support@bath.ac.uk\">web-support@bath.ac.uk</a>"
+
+    # Button copy
+    status_buttons:
+      discard: 'Cancel'
+      save: 'Save'
+      save_close: 'Save and close'
+      finish: 'Submit for review'
+      publish: 'Publish'
+      revert: 'Return to draft'
+      published_save: 'Save draft'
+
+  # Display status
+  publish_status:
+    draft: 'Draft'
+    published: 'Published'
+    changed: 'Changed'
+
+  # Feedback messages
+  action_messages:
+    new_save: 'Saved. You can now preview your content.'
+    new_save_close: 'Saved. You can now preview your content.'
+    new_discard: 'Your draft has been discarded'
+    new_finish: 'Your item has been submitted for review'
+    new_publish: 'Your draft has been queued for publishing'
+    draft_save: 'Saved. You can now preview your content.'
+    draft_save_close: 'Saved. You can now preview your content.'
+    draft_discard: 'No changes were saved'
+    draft_finish: 'Your item has been submitted for review'
+    draft_publish: 'Your draft has been queued for publishing'
+    in_review_revert: 'Your item has been returned to draft'
+    in_review_publish: 'Your item has been queued for publishing'
+    published_save: 'Saved. You can now preview your content.'
+    published_save_close: 'Saved. You can now preview your content.'
+    published_discard: 'No changes were saved'
+    published_finish: 'Your item has been submitted for review'
+    published_publish: 'Your item has been queued for publishing'
+    element_save: 'Your element has been saved'
+    element_discard: 'Your element has been discarded'

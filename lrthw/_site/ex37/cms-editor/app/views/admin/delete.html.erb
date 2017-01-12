@@ -1,0 +1,36 @@
+          <section class="summary-information">
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <h1>Delete content items</h1>
+                <%= render partial: 'shared/flash_message' %>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <table class="content-items">
+                  <caption><%= t('.summary') %></caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Title</th>
+                      <th scope="col">Content Type</th>
+                      <th scope="col">Delete</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <% @content_items.each do |content_item| %>
+                      <tr id="<%= "item-#{ content_item.id }" %>">
+                        <td class="item-title"><%= content_item.title %></td>
+                        <td class="item-type"><%= content_item.core_data_type.underscore.humanize %></td>
+                        <td><%= form_tag(polymorphic_path(content_item.core_data), method: 'delete') do
+                          submit_tag 'Delete', data: { confirm: 'Are you sure?' }
+                        end %></td>
+                      </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>

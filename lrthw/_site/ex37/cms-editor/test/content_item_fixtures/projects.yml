@@ -1,0 +1,167 @@
+maximum_length_values_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Max length project
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: maximum_length_values_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+start_after_end_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Start after end project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: start_after_end_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+invalid_image_url_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Invalid image url project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: invalid_image_url_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+missing_image_alt_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Missing image alt project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_image_alt_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+missing_image_caption_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Missing image caption project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_image_caption_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+missing_embed_code_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Missing embed code project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_embed_code_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+missing_object_title_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: Missing object title project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_title_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+with_pound_sign_project_content_item:
+  as_a: Developer
+  i_need: to test this project
+  so_that: it is tested
+  title: With pound sign project test
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: with_pound_sign_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_project_content_item:
+  as_a: Developer
+  i_need: to test deleting this project
+  so_that: it is tested
+  title: For test deletion project
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_project_content_item:
+  as_a: Developer
+  i_need: to test deleting this project
+  so_that: it is tested
+  title: For test unauthorized deletion project
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+test_filename_format_project_content_item:
+  as_a: Developer
+  i_need: to test deleting this project
+  so_that: it is tested
+  title: This should become a filename
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_filename_format_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_project_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 0
+
+test_save_published_version_for_funnelback_project_content_item:
+  as_a: Developer
+  i_need: to test the published_version_for_funnelback
+  so_that: we can fix the filtered lists
+  title: To test the published_version_for_funnelback
+  summary: Summary
+  created_by: tt227
+  core_data: test_save_published_version_for_funnelback_project
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 0
+
+test_output_attributes_for_projects_content_item:
+  as_a: Developer
+  i_need: to test the output attributes
+  so_that: we can make sure the right information is published
+  title: To test the test_output_attributes_for_projects
+  summary: Summary
+  created_by: ma1twn
+  core_data: test_output_attributes_for_projects
+  core_data_type: Project
+  organisation: university_of_bath
+  status: 0

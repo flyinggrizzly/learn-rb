@@ -1,0 +1,8 @@
+en:
+  groups:
+    form:
+      organisations_legend: Responsible organisations and groups
+      owning_organisation_label: Owner organisation or group
+      owning_organisation_info: Select the organisation or group that this group is part of. Don't select the group itself as the owner.
+      associated_org_label: Associated organisations and groups
+      associated_org_info: Select any additional groups or organisations who share responsibility for this group's content and may need access to amend it. Don't associate the group with itself.

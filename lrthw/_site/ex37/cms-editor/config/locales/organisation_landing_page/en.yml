@@ -1,0 +1,131 @@
+en:
+  organisation_landing_pages:
+    fieldset_title: 'About this Organisation or Group'
+    title: 'Name of Organisation or Group'
+    title_microcopy: 'Enter the name this Organisation or Group is known by. Use the full name, not just an acronym. This should be no more than 65 characters. If you cannot rewrite your title to fit this, you can use up to 100 characters. The last 35 will not show in search results.'
+    title_placeholder: ''
+    summary: 'Organisation or Group summary'
+    summary_microcopy: "Describe the Organisation or Group's role and responsibilities. This should be no more than 160 characters."
+    summary_placeholder: ''
+
+    form:
+      fieldset_subtype: 'Subtype'
+      no_permission_html: 'Only Admins are able to edit this information. If you need to make any changes please contact <a href="mailto:web-support@bath.ac.uk">web-support@bath.ac.uk</a>'
+      subtype_microcopy: 'Select the correct sub-type for this landing page:'
+      subtype_organisation: 'Organisation - a  top-level body in the University such as faculty, department or institute'
+      subtype_group: 'Group - a high-profile unit within an organisation, such as Graduate School, research group or governing committee'
+
+      fieldset_about_content_list: 'Organisation or Group description'
+      about: Description of Organisation or Group
+      about_microcopy: 'Provide a more detailed description of the Organisation or Group and its activities. Do not repeat the Summary, be more specific. This should be no more than 255 characters.'
+      content_list: Content list
+      content_list_microcopy: 'You can choose one content type. All the pages in this content type from your organisation or group will be listed in this section.'
+      content_list_groups: 'Groups'
+      content_list_services: 'Services'
+      content_list_teams: 'Teams'
+      content_list_locations: 'Locations'
+
+      fieldset_contact_details: 'Enquiries'
+      contact_name: 'Contact name'
+      contact_name_microcopy: 'Provide the name of the person who should be contacted if there are any questions.'
+      contact_name_placeholder: 'eg John Smith'
+      contact_email: 'Contact email'
+      contact_email_microcopy: 'Provide an email address for your contact.'
+      contact_email_placeholder: 'eg jws37@bath.ac.uk'
+      contact_phone: 'Contact telephone number'
+      contact_phone_microcopy: 'Provide a telephone number for your contact. For UK numbers, do not use the international prefix.'
+      contact_phone_placeholder: 'eg 01225 388388'
+
+      fieldset_location: 'Location'
+      on_off_campus: 'Where is this location?'
+      on_off_campus_off_campus: 'Off campus - the location is not at the Claverton Down campus'
+      on_off_campus_on_campus: 'On campus - the location is at the Claverton Down campus'
+
+      fieldset_on_campus: 'On campus'
+      on_campus_microcopy: 'Specify the building/area name and room number, if appropriate.'
+      building: 'Building/area name'
+      building_placeholder: 'eg 2 West'
+      room: 'Room number (if applicable)'
+      room_placeholder: 'eg 3.22'
+      on_campus_address: "The University address will be automatically added to this location on the website: <em>University of Bath, Claverton Down, Bath BA2 7AY</em>"
+
+      fieldset_off_campus: 'Off campus'
+      off_campus_microcopy: "Enter the full postal address of your location."
+      address_1: 'Address 1'
+      address_1_placeholder: 'eg Bath Royal Literary and Scientific Institution'
+      address_2: 'Address 2'
+      address_2_placeholder: 'eg 16-18 Queen Square'
+      town: 'Town/City'
+      town_placeholder: 'eg Bath'
+      postcode: 'Postcode'
+      postcode_placeholder: 'eg BA1 2HN'
+      country: 'Country'
+      country_placeholder: 'eg United Kingdom'
+      accessibility: 'Accessibility'
+      accessibility_microcopy: 'Provide information about the accessibility features of the location, like if a hearing loop is provided or access to the room is stairs-only. This should be no more than 1,000 characters.'
+      accessibility_placeholder: 'eg Disabled ramp and lift access are available.'
+      additional_information: 'Additional information'
+      additional_information_microcopy: "If there is important information about this location which could be helpful to visitors, explain it here. This should be no more than 1,000 characters."
+      additional_information_placeholder: 'eg The lecture theatre seats 250 and has full audio visual facilities.'
+
+      fieldset_featured_content: 'Pinned content'
+      featured_content_microcopy: 'If you want to pin content to the top of your landing page, use the dropdowns to add up to six published items. Pinned items will follow the order you choose below, although items with images will automatically be placed higher on the page than those without.'
+      featured_item: 'Pinned item'
+      featured_item_prompt: 'Select an item to pin'
+      featured_item_blank: 'No pinned item'
+
+      fieldset_content_strata: 'Lists of content by type'
+      highlighted_content_strata_microcopy: 'Your landing page will automatically link to lists of all published items owned by this Organisation or Group. Lists are by content type (like Announcements or Guides). Empty lists will not be included.'
+
+      fieldset_announcements: 'Announcements'
+      highlighted_announcements_microcopy: 'Your landing page will also link to a list of all published Announcements owned by this Organisation or Group.'
+
+      fieldset_campaigns: 'Campaigns'
+      highlighted_campaigns_microcopy: 'Your landing page will also link to a list of all published Campaigns owned by this Organisation or Group.'
+
+      fieldset_case_studies: 'Case Studies'
+      highlighted_case_studies_microcopy: 'Your landing page will also link to a list of all published Case Studies owned by this Organisation or Group.'
+
+      fieldset_corporate_informations: 'Corporate Information'
+      highlighted_corporate_informations_microcopy: 'Your landing page will also link to a list of all published Corporate Information owned by this Organisation or Group.'
+
+      fieldset_events: 'Events'
+      highlighted_events_microcopy: 'Your landing page will also link to a list of all published Events owned by this Organisation or Group.'
+
+      fieldset_guides: 'Guides'
+      highlighted_guides_microcopy: 'Your landing page will also link to a list of all published Guides owned by this Organisation or Group.'
+
+      fieldset_locations: 'Locations'
+      highlighted_locations_microcopy: 'Your landing page will also link to a list of all published Locations owned by this Organisation or Group.'
+
+      fieldset_person_profiles: 'Person Profiles'
+      highlighted_person_profiles_microcopy: 'Your landing page will also link to a list of all published Person Profiles owned by this Organisation or Group.'
+
+      fieldset_projects: 'Projects'
+      highlighted_projects_microcopy: 'Your landing page will also link to a list of all published Projects owned by this Organisation or Group.'
+
+      fieldset_publications: 'Publications'
+      highlighted_publications_microcopy: 'Your landing page will also link to a list of all published Publications owned by this Organisation or Group.'
+
+      fieldset_service_starts: 'Service Starts'
+      highlighted_service_starts_microcopy: 'Your landing page will also link to a list of all published Service Starts owned by this Organisation or Group.'
+
+      fieldset_team_profiles: 'Team Profiles'
+      highlighted_team_profiles_microcopy: 'Your landing page will also link to a list of all published Team Profiles owned by this Organisation or Group.'
+
+    highlighted_item:
+      highlighted_item_prompt: 'Select an item to highlight'
+      highlighted_item_blank: 'No highlighted item'
+
+      highlighted_announcement: 'Highlighted Announcement'
+      highlighted_campaign: 'Highlighted Campaign'
+      highlighted_case_study: 'Highlighted Case Study'
+      highlighted_corporate_information: 'Highlighted Corporate Information'
+      highlighted_event: 'Highlighted Event'
+      highlighted_guide: 'Highlighted Guide'
+      highlighted_location: 'Highlighted Location'
+      highlighted_person_profile: 'Highlighted Person Profile'
+      highlighted_project: 'Highlighted Project'
+      highlighted_publication: 'Highlighted Publication'
+      highlighted_service_start: 'Highlighted Service Start'
+      highlighted_team_profile: 'Highlighted Team Profile'

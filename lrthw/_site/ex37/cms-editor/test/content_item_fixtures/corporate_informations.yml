@@ -1,0 +1,899 @@
+maximum_length_corporate_information_content_item:
+  as_a: Developer
+  i_need: a corporate information with text up to the limit
+  so_that: if someone decreases that limit it gets flagged up
+  title: Maximum text lengths corporate information - BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1Cez
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: maximum_length_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing image alt
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_alt_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing image caption
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_featured_image_caption_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+missing_object_title_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing object title
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_title_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+missing_object_embed_code_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing object embed code
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: missing_object_embed_code_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+item_belonging_to_science_item:
+  as_a: Developer
+  i_need: to test that an item that belongs in an org is listed for a user associated to that org
+  so_that: I can test the listing restriction works
+  title: Science only item
+  summary: Text text text
+  created_by: mnskchg
+  core_data: item_belonging_to_science
+  core_data_type: CorporateInformation
+  organisation: science
+  status: 3
+
+item_belonging_to_mar_comms_item:
+  as_a: Developer
+  i_need: to test that an item that belongs in an org isn't listed for a user not associated to that org
+  so_that: I can test the listing restriction works
+  title: Mar Comms only item
+  summary: Text text text
+  created_by: mnskchg
+  core_data: item_belonging_to_mar_comms
+  core_data_type: CorporateInformation
+  organisation: mar_comms
+  status: 3
+
+item_belonging_to_mar_comms_associated_with_science_item:
+  as_a: Developer
+  i_need: to test that an item associated with an org appears for a user
+  so_that: I can test the listing restriction works
+  title: Mar Comms owned item associated with Science
+  summary: Text text text
+  created_by: mnskchg
+  core_data: item_belonging_to_mar_comms_associated_with_science
+  core_data_type: CorporateInformation
+  organisation: mar_comms
+  status: 3
+  associated_orgs:
+    - science
+
+item_belonging_to_group_item:
+  as_a: Developer
+  i_need: to test that an item belonging to a group appears for a user
+  so_that: I can test the listing restriction works
+  title: Group owned item
+  summary: Text text text
+  created_by: mnskchg
+  core_data: item_belonging_to_group
+  core_data_type: CorporateInformation
+  organisation: feature_test_group
+  status: 3
+
+url_uniqueness_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: url uniqueness title
+  summary: Test for url uniqueness
+  created_by: tt227
+  status: 3
+  core_data: url_uniqueness
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+
+url_uniqueness_duplicate_content_item:
+  as_a: Tester
+  i_need: a content item
+  so_that: I can test this feature
+  title: url uniqueness title
+  summary: Test for url uniqueness
+  created_by: tt227
+  status: 3
+  core_data: url_uniqueness_duplicate
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+
+for_test_deletion_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test deleting this corporate information
+  so_that: it is tested
+  title: For test deletion corporate information
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test deleting this corporate information
+  so_that: it is tested
+  title: For test unauthorized deletion corporate information
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+for_test_user_only_sees_their_orgs_corporate_information_item:
+  as_a: Developer
+  i_need: to test user only sees their orgs on this corporate information
+  so_that: it is tested
+  title: Corp info belonging to a cms-test-user
+  summary: Mucho text
+  created_by: cms-science-user
+  core_data: for_test_user_only_sees_their_orgs_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+  url_path: /corporate-information/corp-info-belonging-to-a-cms-test-user
+
+unpublished_corporate_information_content_item:
+  as_a: Developer
+  i_need: to this corporate information to remain unpublished
+  so_that: I can test a scope
+  title: Unpublished corporate information
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: unpublished_corporate_information
+  core_data_type: CorporateInformation
+  organisation: mar_comms
+  status: 0
+
+test_admin_sees_all_corporate_information_content_item:
+  as_a: Developer
+  i_need: to this corporate information for an admin
+  so_that: I can test that the admin sees full list of orgs
+  title: Admin sees all
+  summary: Mucho text
+  created_by: mnskchg
+  core_data: test_admin_sees_all_corporate_information
+  core_data_type: CorporateInformation
+  organisation: mar_comms
+  status: 0
+
+for_test_user_in_parent_org_of_group_can_edit_item:
+  i_need: to test that an editor in the parent org of a group can see that group's items
+  so_that: bug is fixed
+  title: Corp info belonging to group
+  summary: Blah blah blah
+  created_by: cms-group-user
+  core_data: for_test_user_in_parent_org_of_group_can_edit
+  core_data_type: CorporateInformation
+  organisation: child_group
+  status: 3
+
+for_test_user_in_parent_associated_org_of_associated_group_can_edit_item:
+  as_a: Developer
+  i_need: to test that an editor in the parent org of an associated group can see that group's items
+  so_that: bug is fixed
+  title: Corp info belonging to associated group of an associated org
+  summary: Blah blah blah
+  created_by: cms-associated-parent-org-user
+  core_data: for_test_user_in_parent_associated_org_of_associated_group_can_edit
+  core_data_type: CorporateInformation
+  organisation: science
+  associated_orgs: associated_child_group
+  status: 3
+
+for_test_user_in_parent_org_of_associated_group_can_edit_item:
+  as_a: Developer
+  i_need: to test that an editor in the parent org of an associated group can see that group's items
+  so_that: bug is fixed
+  title: Corp info belonging to associated group
+  summary: Blah blah blah
+  created_by: cms_parent_org_user
+  core_data: for_test_user_in_parent_org_of_associated_group_can_edit
+  core_data_type: CorporateInformation
+  organisation: science
+  associated_orgs: child_group
+  status: 3
+  url_path: /corporate-information/corp-info-belonging-to-associated-group
+
+for_test_contributor_cannot_change_org_item:
+  as_a: Developer
+  i_need: to test that a contributor cannot change the orgs on an item
+  so_that: bug is fixed
+  title: Corp info
+  summary: Blah blah blah
+  created_by: cms_parent_org_user
+  core_data: for_test_contributor_cannot_change_org
+  core_data_type: CorporateInformation
+  organisation: science
+  associated_orgs: child_group
+  status: 3
+  url_path: /corporate-information/corp-info
+
+test_publish_change_to_title_and_body_content_content_item:
+  as_a: Developer
+  i_need: to test that a title change doesn't break the output_attributes of the corp_info
+  so_that: bug is fixed
+  title: Corp info title change
+  summary: Blah blah blah
+  created_by: tt227
+  core_data: test_publish_change_to_title_and_body_content
+  core_data_type: CorporateInformation
+  organisation: science
+  status: 0
+
+test_corp_info_output_for_preview_content_item:
+  as_a: Developer
+  i_need: an item that goes into review and outputs all the expected values for the redis queue
+  so_that: preview works
+  title: Preview output has all new changes test
+  summary: Summary before preview
+  created_by: mnskchg
+  core_data: test_corp_info_output_for_preview
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 1
+
+test_status_does_not_change_on_validation_error_corporate_information_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_should_have_preview_link_corporate_information_content_item:
+  as_a: Developer
+  i_need: an item that is in review
+  so_that: I can check that it has a preview link
+  title: In review with a preview link
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_should_have_preview_link_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 1
+  url_path: /corporate-information/in-review-with-a-preview-link
+
+test_should_have_published_link_corporate_information_content_item:
+  as_a: Developer
+  i_need: an item that is published
+  so_that: I can test that a link to the published version exists
+  title: I'm published. Where's my link?
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_should_have_published_link_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+  url_path: /corporate-information/im-published-wheres-my-link
+
+test_should_not_have_preview_links_corporate_information_content_item:
+  as_a: Developer
+  i_need: an item that is only in draft and never published
+  so_that: I can test that there are no links to the preview or live page
+  title: I'm new
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_should_not_have_preview_links_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_call_to_action_url_label_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing call to action label
+  summary: Mucho text
+  created_by: tt227
+  core_data: test_call_to_action_url_label_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_type_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing call to action type
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_type_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_type_incorrect_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Incorrect call to action type
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_type_incorrect_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_valid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Valid call to action url
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_url_valid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_label_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing call to action label
+  summary: Mucho text
+  created_by: tt227
+  core_data: test_call_to_action_url_label_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_label_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA url label too long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_url_label_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_content_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Missing call to action url
+  summary: Mucho text
+  created_by: tt227
+  core_data: test_call_to_action_url_content_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_content_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA url content too long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_url_content_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_url_content_invalid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA url content invalid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_url_content_invalid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_valid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email valid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_valid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_label_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email label missing
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_label_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_label_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email label long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_label_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_content_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email content missing
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_content_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_content_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email content long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_content_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_email_content_invalid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA email content invalid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_email_content_invalid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_valid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone valid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_valid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_length_valid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone valid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_length_valid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_label_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone label missing
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_label_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_label_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone label long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_label_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_content_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone content missing
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_content_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_content_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone content long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_content_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_phone_content_invalid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA phone content invalid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_phone_content_invalid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_none_valid_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA none valid
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_none_valid_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_none_reason_missing_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA none reason missing
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_none_reason_missing_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_call_to_action_none_reason_long_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: CTA none reason long
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_call_to_action_none_reason_long_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 3
+
+test_filter_published_by_org_scope_draft_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Draft for filter published by org scope
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: test_filter_published_by_org_scope_draft_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_filter_published_by_org_scope
+  status: 0
+
+test_filter_published_by_org_scope_updated_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Updated for filter published by org scope
+  summary: Published and changed in the test
+  created_by: ma1twn
+  core_data: test_filter_published_by_org_scope_updated_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_filter_published_by_org_scope
+  status: 0
+
+test_filter_published_by_org_scope_published_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Published for filter published by org scope
+  summary: Published in the test
+  created_by: ma1twn
+  core_data: test_filter_published_by_org_scope_published_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_filter_published_by_org_scope
+  status: 0
+
+test_associated_published_by_org_draft_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Draft for owned and associated published by org
+  summary: Some text
+  created_by: ma1twn
+  core_data: test_associated_published_by_org_draft_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  associated_orgs: test_associated_published_by_org_draft
+  status: 0
+
+test_associated_published_by_org_updated_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Updated for owned and associated published by org
+  summary: Published and changed in the test
+  created_by: ma1twn
+  core_data: test_associated_published_by_org_updated_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  associated_orgs: test_associated_published_by_org_draft
+  status: 0
+
+test_associated_published_by_org_published_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Published for owned and associated published by org
+  summary: Published in the test
+  created_by: ma1twn
+  core_data: test_associated_published_by_org_published_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  associated_orgs: test_associated_published_by_org_draft
+  status: 0
+
+test_all_pinnable_by_org_parent_published_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Published for parent org
+  summary: Published in the test
+  created_by: ma1twn
+  core_data: test_all_pinnable_by_org_parent_published_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_all_pinnable_by_org_organisation
+  status: 0
+
+test_all_pinnable_by_org_child_draft_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Draft for child group
+  summary: Some text
+  created_by: ma1twn
+  core_data: test_all_pinnable_by_org_child_draft_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_all_pinnable_by_org_group
+  status: 0
+
+test_all_pinnable_by_org_child_updated_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Updated for child group
+  summary: Published and updated in the test
+  created_by: ma1twn
+  core_data: test_all_pinnable_by_org_child_updated_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_all_pinnable_by_org_group
+  status: 0
+
+test_all_pinnable_by_org_child_published_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Published for child group
+  summary: Published in the test
+  created_by: ma1twn
+  core_data: test_all_pinnable_by_org_child_published_corporate_information
+  core_data_type: CorporateInformation
+  organisation: test_all_pinnable_by_org_group
+  status: 0
+
+test_all_pinnable_by_org_associated_child_published_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: Published and associated with child group
+  summary: Published in the test
+  created_by: ma1twn
+  core_data: test_all_pinnable_by_org_associated_child_published_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  associated_orgs: test_all_pinnable_by_org_group
+  status: 0
+
+test_add_label_no_js_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: test add label no js
+  summary: Summary
+  created_by: tt227
+  core_data: test_add_label_no_js_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_remove_label_corporate_information_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: test remove label corporate information
+  summary: Summary
+  created_by: tt227
+  core_data: test_remove_label_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+  labels: maximum_length_label, research_label
+
+test_max_number_of_labels_content_item:
+  as_a: Developer
+  i_need: to test this corporate information
+  so_that: it is tested
+  title: test max number of labels content item
+  summary: Summary
+  created_by: tt227
+  core_data: test_max_number_of_labels
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_labels_in_json_corporate_information_content_item:
+  as_a: Developer
+  i_need: To test this has labels set in JSON output
+  so_that: It is formatted correctly
+  title: 'Title of corp info'
+  summary: 'Test summary'
+  created_by: mnskchg
+  core_data: test_labels_in_json_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - induction_label
+    - undergraduate_label
+    - two_word_label
+
+test_add_sections_collection_corporate_information_content_item:
+  as_a: Developer
+  i_need: To test adding this to a collection
+  so_that: We know collections work
+  title: test add sections collection corporate information content item
+  summary: Summary
+  created_by: tt227
+  core_data: test_add_sections_collection_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - undergraduate_label
+
+test_search_autocomplete_corporate_information_content_item:
+  as_a: Dev
+  i_need: To test the autocomplete
+  so_that: We know the drop down box works
+  title: test search for things and it autocompletes
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_search_autocomplete_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+  labels:
+    - undergraduate_label
+
+test_allow_non_roman_in_search_corporate_information_content_item:
+  as_a: Dev
+  i_need: To test the autocomplete allows non-roman characters
+  so_that: We know the search works for genuine special characters
+  title: 'Poznaňská 123'
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_allow_non_roman_in_search_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_editor_in_associated_org_cannot_set_orgs_corporate_information_content_item:
+  as_a: Developer
+  i_need: The orgs cannot be changed if you are not in the owning org
+  so_that: We can fix a bug
+  title: Edited by associated editor
+  summary: summary
+  created_by: mnskchg
+  core_data: test_editor_in_associated_org_cannot_set_owning_org_corporate_information
+  core_data_type: CorporateInformation
+  organisation: other_org
+  associated_orgs: university_of_bath
+  status: 0
+
+test_editor_in_owning_org_can_set_org_corporate_information_content_item:
+  as_a: Dev
+  i_need: To ensure that the owning org for an item is only editable if the user is in that org
+  so_that: Editors can control their content
+  title: Owned by org editor is in
+  summary: summary
+  created_by: mnskchg
+  core_data: test_editor_in_owning_org_can_set_org_corporate_information
+  core_data_type: CorporateInformation
+  organisation: university_of_bath
+  status: 0
+
+test_editor_only_sees_their_orgs_corporate_information_content_item:
+  as_a: dev
+  i_need: an item that shows an editor just their orgs
+  so_that: I can check that they can set things right
+  title: See my orgs
+  summary: summary
+  created_by: mnskchg
+  core_data: test_editor_only_sees_their_orgs_corporate_information
+  core_data_type: CorporateInformation
+  organisation: science
+  status: 0
+
+test_associated_editor_cannot_set_org_corporate_information:
+  as_a: dev
+  i_need: an item that an editor can access but cannot set orgs on
+  so_that: my feature behaves as it should
+  title: no set
+  summary: summary
+  created_by: mnskchg
+  core_data: test_associated_editor_cannot_set_org_corporate_information
+  core_data_type: CorporateInformation
+  organisation: other_org
+  associated_orgs: university_of_bath
+  status: 0

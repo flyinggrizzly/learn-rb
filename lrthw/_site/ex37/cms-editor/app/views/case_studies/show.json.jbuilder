@@ -1,0 +1,1 @@
+json.extract! @case_study, :id, :subtype, :body_content, :quote, :quote_attribution, :featured_image, :featured_image_alt, :featured_image_caption, :object_title, :object_embed_code, :call_to_action_label, :call_to_action_url, :last_published_version, :created_at, :updated_at

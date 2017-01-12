@@ -1,0 +1,20 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+ug_psychology_brochure_attachment1:
+  title: ""
+  publication: ug_psychology_brochure
+  created_at: 2015-10-21 13:00
+
+ug_psychology_brochure_attachment2:
+  title: ""
+  publication: ug_psychology_brochure
+  created_at: 2015-10-21 12:00
+
+maximum_length_publication_attachment:
+  title: ""
+  publication: maximum_length_publication
+
+for_test_deletion_publication_attachment:
+  title: To be deleted
+  publication: for_test_deletion_publication

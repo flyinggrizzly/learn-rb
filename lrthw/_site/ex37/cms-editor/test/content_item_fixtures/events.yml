@@ -1,0 +1,347 @@
+valid_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: valid_event
+  summary: Summary text
+  created_by: tt227
+  core_data: valid_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_one_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_email_one_event
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_email_one_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_two_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_email_two_event
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_email_two_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_email_ending_period_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_email_ending_period_event
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_email_ending_period_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_url_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_url_event
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_url_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_phone_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_phone_event
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_phone_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+valid_phone_brackets_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: valid_phone_brackets_event
+  summary: Summary text
+  created_by: tt227
+  core_data: valid_phone_brackets_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_email_if_booking_email_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_email_if_booking_email_event
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_email_if_booking_email_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_link_if_booking_app_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_link_if_booking_app_event
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_link_if_booking_app_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_link_if_booking_website_event_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_link_if_booking_website_event
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_link_if_booking_website_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_price_if_charge_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_price_if_charge
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_price_if_charge
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_end_before_start_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_end_before_start
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_end_before_start
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+maximum_length_values_on_campus_valid_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: maximum_length_values_on_campus_valid
+  summary: Summary text
+  created_by: tt227
+  core_data: maximum_length_values_on_campus_valid
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+maximum_length_values_off_campus_valid_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: maximum_length_values_off_campus_valid
+  summary: Summary text
+  created_by: tt227
+  core_data: maximum_length_values_off_campus_valid
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_venue_if_on_campus_building_empty_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_venue_if_on_campus_building_empty
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_venue_if_on_campus_building_empty
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_building_if_on_campus_venue_empty_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_building_if_on_campus_venue_empty
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_building_if_on_campus_venue_empty
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+missing_building_if_on_campus_room_number_specified_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: missing_building_if_on_campus_room_number_specified
+  summary: Summary text
+  created_by: tt227
+  core_data: missing_building_if_on_campus_room_number_specified
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+location_outside_range_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: location_outside_range
+  summary: Summary text
+  created_by: tt227
+  core_data: location_outside_range
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_address_1_on_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_address_1_on_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_address_1_on_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_address_2_on_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_address_2_on_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_address_2_on_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_town_on_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_town_on_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_town_on_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_country_on_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_country_on_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_country_on_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_postcode_on_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_postcode_on_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_postcode_on_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_venue_off_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_venue_off_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_venue_off_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_room_number_off_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_room_number_off_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_room_number_off_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+invalid_building_off_campus_content_item:
+  as_a: Developer
+  i_need: an event
+  so_that: I can test it
+  title: invalid_building_off_campus
+  summary: Summary text
+  created_by: tt227
+  core_data: invalid_building_off_campus
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_event_content_item:
+  as_a: Developer
+  i_need: to test deleting this event
+  so_that: it is tested
+  title: For test deletion event
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_event_content_item:
+  as_a: Developer
+  i_need: to test deleting this event
+  so_that: it is tested
+  title: For test unauthorized deletion event
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_event_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_event
+  core_data_type: Event
+  organisation: university_of_bath
+  status: 0

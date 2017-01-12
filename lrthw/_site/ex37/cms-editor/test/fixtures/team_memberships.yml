@@ -1,0 +1,147 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+saved_url_path_for_funnelback_vice_chancellor_published:
+  team_profile: saved_url_path_for_funnelback
+  person_profile: vice_chancellor_published
+
+senior_managers_vice_chancellor:
+  team_profile: senior_managers
+  person_profile: vice_chancellor
+  member_order: 1
+
+senior_managers_pro_vice_chancellor_research:
+  team_profile: senior_managers
+  person_profile: pro_vice_chancellor_research
+  member_order: 2
+
+vice_chancellors_group_vice_chancellor_published:
+  team_profile: vice_chancellors_group
+  person_profile: vice_chancellor_published
+
+committee_vice_chancellor:
+  team_profile: committee
+  person_profile: vice_chancellor_published
+
+committee_staff_member1:
+  team_profile: committee
+  person_profile: staff_member1
+
+team_draft_vice_chancellor:
+  team_profile: team_draft
+  person_profile: vice_chancellor
+
+team_draft_pro_vice_chancellor_research:
+  team_profile: team_draft
+  person_profile: pro_vice_chancellor_research
+
+team_draft_2_vice_chancellor:
+  team_profile: team_draft_2
+  person_profile: vice_chancellor
+
+team_draft_2_pro_vice_chancellor_research:
+  team_profile: team_draft_2
+  person_profile: pro_vice_chancellor_research
+
+team_in_review_vice_chancellor:
+  team_profile: team_in_review
+  person_profile: vice_chancellor
+
+team_in_review_pro_vice_chancellor_research:
+  team_profile: team_in_review
+  person_profile: pro_vice_chancellor_research
+
+team_published_vice_chancellor:
+  team_profile: team_published
+  person_profile: vice_chancellor
+
+team_published_pro_vice_chancellor_research:
+  team_profile: team_published
+  person_profile: pro_vice_chancellor_research
+
+duties_invalid_vice_chancellor:
+  team_profile: duties_invalid
+  person_profile: vice_chancellor
+
+last_published_team_vice_chancellor:
+  team_profile: last_published_team
+  person_profile: vice_chancellor
+
+save_last_published_version_number_team_vice_chancellor:
+  team_profile: save_last_published_version_number_team
+  person_profile: vice_chancellor
+
+team_with_profiles_vice_chancellor:
+  team_profile: team_with_profiles
+  person_profile: vice_chancellor
+
+invalid_subset_team_profile_vice_chancellor:
+  team_profile: invalid_subset_team_profile
+  person_profile: vice_chancellor
+
+for_test_survive_deletion_team_profile_for_test_deletion_person_profile:
+  team_profile: for_test_survive_deletion_team_profile
+  person_profile: for_test_deletion_person_profile
+
+for_test_deletion_team_profile_for_test_survive_deletion_person_profile:
+  team_profile: for_test_deletion_team_profile
+  person_profile: for_test_survive_deletion_person_profile
+
+test_team_profile_output_for_preview_vice_chancellor:
+  team_profile: test_team_profile_output_for_preview
+  person_profile: vice_chancellor
+
+test_team_profile_output_for_preview_staff_member1:
+  team_profile: test_team_profile_output_for_preview
+  person_profile: staff_member1
+
+test_status_does_not_change_on_validation_error_team_profile_vice_chancellor:
+  team_profile: test_status_does_not_change_on_validation_error_team_profile
+  person_profile: vice_chancellor
+
+test_status_does_not_change_on_validation_error_team_profile_staff_member1:
+  team_profile: test_status_does_not_change_on_validation_error_team_profile
+  person_profile: staff_member1
+
+test_publish_associated_team_profile_team_profile_test_publish_associated_team_profile_person_profile:
+  team_profile: test_publish_associated_team_profile_team_profile
+  person_profile: test_publish_associated_team_profile_person_profile
+
+test_add_order_to_team_members_vice_chancellor:
+  team_profile: test_add_order_to_team_members
+  person_profile: vice_chancellor
+  member_order: 1
+
+test_add_order_to_team_members_pro_vice_chancellor_research:
+  team_profile: test_add_order_to_team_members
+  person_profile: pro_vice_chancellor_research
+  member_order: 2
+
+test_order_of_team_members_for_output_staff_member1:
+  team_profile: test_order_of_team_members_for_output
+  person_profile: staff_member1
+
+test_order_of_team_members_for_output_vice_chancellor:
+  team_profile: test_order_of_team_members_for_output
+  person_profile: vice_chancellor_published
+  member_order: 1
+
+test_order_of_team_members_for_output_team_member_named_a:
+  team_profile: test_order_of_team_members_for_output
+  person_profile: team_member_named_a
+  member_order: 2
+
+test_order_of_team_members_for_output_team_member_named_b:
+  team_profile: test_order_of_team_members_for_output
+  person_profile: team_member_named_b
+  member_order: 2
+
+test_reorder_team_members_js_vice_chancellor:
+  team_profile: test_reorder_team_members_js
+  person_profile: vice_chancellor
+  member_order: 1
+
+test_reorder_team_members_js_pro_vice_chancellor_research:
+  team_profile: test_reorder_team_members_js
+  person_profile: pro_vice_chancellor_research
+  member_order: 2

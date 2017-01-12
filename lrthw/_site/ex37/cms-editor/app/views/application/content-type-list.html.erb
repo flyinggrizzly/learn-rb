@@ -1,0 +1,96 @@
+          <section class="summary-information">
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <h1>Choose a content type</h1>
+                <p class="summary">Select a type from the list below that best suits the content you want to create.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="row">
+              <div class="small-20 small-offset-2 large-24 large-offset-0 column">
+                <h1>Content types</h1>
+                <table class="content-types">
+                <caption>Content types available in the CMS</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Announcement", controller: :announcements, action: :new %></th>
+                      <td class="type-description"><%= link_to "Share news and timely information about University activity.", controller: :announcements, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Campaign", controller: :campaigns, action: :new %></th>
+                      <td class="type-description"><%= link_to "Bring together detailed information on a promotional campaign.", controller: :campaigns, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Case study", controller: :case_studies, action: :new %></th>
+                      <td class="type-description"><%= link_to "Tell a story about the impact of our research or an individual's experience.", controller: :case_studies, action: :new %></td>
+                    </tr>
+                    <% if current_user.admin? %>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Collection", controller: :collections, action: :new %></th>
+                      <td class="type-description"><%= link_to "Curate content items sharing a single theme.", controller: :collections, action: :new %></td>
+                    </tr>
+                    <% end %>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Corporate information", controller: :corporate_informations, action: :new %></th>
+                      <td class="type-description"><%= link_to "Explain rules and regulations and how they might affect people.", controller: :corporate_informations, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Event", controller: :events, action: :new %></th>
+                      <td class="type-description"><%= link_to "Describe a University event and how someone can attend.", controller: :events, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "External item", controller: :external_items, action: :new %></th>
+                      <td class="type-description"><%= link_to "Link to an external page or piece of content from a Landing page or Collection.", controller: :external_items, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Guide", controller: :guides, action: :new %></th>
+                      <td class="type-description"><%= link_to "Explain how to access information or complete a specific task.", controller: :guides, action: :new %></td>
+                    </tr>
+                    <% if current_user.admin? %>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to 'Landing page', controller: :organisation_landing_pages, action: :new %></th>
+                      <td class="type-description"><%= link_to 'Create a landing page featuring content about a faculty, department or group.', controller: :organisation_landing_pages, action: :new %></td>
+                    </tr>
+                    <% end %>
+                    <% if false && current_user.admin? %>
+                    <tr>
+                      <th scope="row" class="type-title"><a href="content_items/new">List</a></th>
+                      <td class="type-description"><a href="content_items/new">Create a fixed or filtered list of all content in a category.</a></td>
+                    </tr>
+                    <% end %>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Location", controller: :locations, action: :new %></th>
+                      <td class="type-description"><%= link_to "Describe a building, venue or location on campus.", controller: :locations, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Person profile", controller: :person_profiles, action: :new %></th>
+                      <td class="type-description"><%= link_to "Profile a member of staff and their role at the University.", controller: :person_profiles, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Project", controller: :projects, action: :new %></th>
+                      <td class="type-description"><%= link_to "Bring together detailed information on a single project.", controller: :projects, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to 'Publication', controller: :publications, action: :new %></th>
+                      <td class="type-description"><%= link_to "Attach and describe a standalone document for users to download.", controller: :publications, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to "Service start", controller: :service_starts, action: :new %></th>
+                      <td class="type-description"><%= link_to "Introduce and link to an online tool or transaction outside the CMS.", controller: :service_starts, action: :new %></td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="type-title"><%= link_to 'Team profile', controller: :team_profiles, action: :new %></th>
+                      <td class="type-description"><%= link_to 'Describe a team or a group of people working together.', controller: :team_profiles, action: :new %></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>

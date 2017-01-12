@@ -1,0 +1,29 @@
+en:
+  external_items:
+    fieldset_title: 'About this external item'
+    title: 'Name of external item'
+    title_microcopy: 'Enter the name of this external item. This should be no more than 65 characters. If you cannot rewrite your title to fit this, you can use up to 100 characters. The last 35 will not show in search results.'
+    title_placeholder: 'eg Visas and Immigration'
+    summary: 'External item summary'
+    summary_microcopy: 'Summarise what this external item is. This should be no more than 160 characters.'
+    summary_placeholder: 'eg Find out what visa you need to apply for on gov.uk'
+    form:
+      fieldset_subtype: 'Subtype'
+      subtype_microcopy: 'Select the subtype that best describes this external item.'
+      subtype_university: 'University of Bath content - a bath.ac.uk page from OpenCms, blogs.bath.ac.uk or wiki.bath.ac.uk, but not from the Content Publisher'
+      subtype_external: 'External content - a page from an external website, like Flickr, Vimeo or gov.uk'
+
+      fieldset_external_item: 'External link'
+      external_url_microcopy: Enter external content URL
+      external_url_placeholder: 'eg https://www.gov.uk/browse/visas-immigration'
+
+      fieldset_image: 'Featured image'
+      featured_image: 'Featured image URL'
+      featured_image_microcopy: 'Enter the URL of an image to illustrate this external item.'
+      featured_image_placeholder: 'eg https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg'
+      featured_image_alt: 'Featured image alt text'
+      featured_image_alt_microcopy: "Describe this photo for users who can't see the image. This will not be visible when the image is displayed. This should be no more than 255 characters."
+      featured_image_alt_placeholder: 'eg A student ambassador talking to visitors at Open Day'
+      featured_image_caption: 'Featured image caption'
+      featured_image_caption_microcopy: 'Give your image a meaningful and interesting caption. This should be no more than 255 characters.'
+      featured_image_caption_placeholder: 'eg Student ambassadors are on hand to give advice at Open Days'

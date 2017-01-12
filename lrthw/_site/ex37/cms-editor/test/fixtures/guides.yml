@@ -1,0 +1,80 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+tea_making_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kettle
+  call_to_action_content: http://maps.google.com
+  featured_image:
+  featured_image_alt:
+  featured_image_caption:
+  object_title: Instructional video
+  object_embed_code:
+
+detailed_tea_making_guide:
+  subtype: detailed_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+  featured_image:
+  featured_image_alt:
+  featured_image_caption:
+  object_title: Instructional video
+  object_embed_code:
+
+invalid_detailed_guide:
+  subtype: detailed_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+
+invalid_section_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+
+invalid_cta_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label:
+  call_to_action_content:
+
+text_limit_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2y
+  call_to_action_content: http://www.bath.ac.uk/0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0Ztafqw4t4e
+  featured_image: http://www.bath.ac.uk/0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0Ztafqw4t4e
+  featured_image_alt: 0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0ZtXZ6ytnc9oQB0LAmgJ5BIrmIyz8oxuo
+  featured_image_caption: 0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0ZtXZ6ytnc9oQB0LAmgJ5BIrmIyz8oxuo
+  contact_name: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  contact_email: bbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+  object_title: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQ
+  object_embed_code: <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/uniofbath/19283150059/in/album-72157654816104830/" title="University of Bath Summer 2015 Graduations, Ceremony 6"><img src="https://farm1.staticflickr.com/474/19283150059_21bd6a8e00_z.jpg" width="640" height="458" alt="University of Bath Summer 2015 Graduations, Ceremony 6"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485IHNjCMiRPBgGKzh0fPbsopu7fTlMiRMDLJ4zpmiLjosEhQevQ0mXuXkhDX02HruVrOaTCGAF87PmGtKnWDzz5xtKF3mB1yAgwrggGvR0ZtXZ6ytnc9oQB0LAmgJ5BIrmIyz8oxuo0tNfsBE3GsKsrcA7vJcNyVAmqWgaRp5R3lT9xgcj8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485j8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO485j8HGhtkiCqQE7wzfDOVoqv2XwixTr5T7so8Q08EjxBCvcMc49n0v5r6hG8OU8pVKDL7c6knKYirsO
+
+for_test_deletion_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+
+for_test_survive_deletion_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+
+for_test_unauthorized_deletion_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/
+
+test_status_does_not_change_on_validation_error_guide:
+  subtype: basic_guide
+  call_to_action_type: url
+  call_to_action_label: Find your nearest kitchen
+  call_to_action_content: http://www.bath.ac.uk/locations/

@@ -1,0 +1,348 @@
+marketing_team_content_item:
+  as_a: Web editor
+  i_need: a page about our marketing managers
+  so_that: we can build a marketing website
+  title: The marketing managers
+  summary: The managers of the marketing department
+  created_by: ma1twn
+  core_data: marketing
+  core_data_type: TeamProfile
+  organisation: research_group
+  associated_orgs: mar_comms, feature_test_group
+  status: 3
+
+saved_url_path_for_funnelback_content_item:
+  as_a: Developer
+  i_need: another team profile
+  so_that: my tests are not depending on the same data
+  title: Saved URL path
+  summary: Testing funnelback
+  created_by: ma1twn
+  core_data: saved_url_path_for_funnelback
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+team_no_members_team_content_item:
+  as_a: Developer
+  i_need: a group with no members
+  so_that: I can make this test work
+  title: Team with no members
+  summary: This team has no members at all
+  created_by: ma1twn
+  core_data: team_no_members
+  core_data_type: TeamProfile
+  organisation: science
+  status: 3
+
+senior_managers_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: Senior Managers
+  summary: The senior leadership team
+  created_by: ma1twn
+  core_data: senior_managers
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+vice_chancellors_group_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: Vice Chancellor's Group
+  summary: Some of the senior leadership team
+  created_by: ma1twn
+  core_data: vice_chancellors_group
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+committee_content_item:
+  as_a: Web Dev
+  i_need: a team that has a mixture of leaders and staff profiles
+  so_that: I can test the output for the publisher
+  title: Committee
+  summary: Here is a committee of senior and non senior staff
+  created_by: mnskchg
+  core_data: committee
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+no_organisation_invalid:
+  as_a: Web editor
+  i_need: a page about our marketing managers
+  so_that: we can build a marketing website
+  title: The marketing managers
+  summary: The managers of the marketing department
+  created_by: ma1twn
+  core_data: marketing
+  core_data_type: TeamProfile
+
+team_draft_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: team_draft_content_item
+  summary: The senior leadership team
+  created_by: ma1twn
+  status: 0
+  core_data: team_draft
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+team_draft_2_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: team_draft_2_content_item
+  summary: The senior leadership team
+  created_by: ma1twn
+  status: 0
+  core_data: team_draft_2
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+team_in_review_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: team_in_review_content_item
+  summary: The senior leadership team
+  created_by: ma1twn
+  status: 1
+  core_data: team_in_review
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  url_path: /teams/team-in-review-content-item
+
+team_published_content_item:
+  as_a: Web editor
+  i_need: a page about our senior managers
+  so_that: we can have a senior manager team page
+  title: team_published_content_item
+  summary: The senior leadership team
+  created_by: ma1twn
+  status: 3
+  core_data: team_published
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  url_path: /teams/team-published-content-item
+
+maximum_length_values_valid_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: maximum_length_values_valid
+  summary: Summary text
+  created_by: tt227
+  status: 3
+  core_data: maximum_length_values_valid
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+duties_invalid_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: duties_invalid
+  summary: Summary text
+  created_by: tt227
+  status: 3
+  core_data: duties_invalid
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+last_published_team_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: Last Published Team
+  summary: Test for last published version
+  created_by: ma1twn
+  status: 0
+  core_data: last_published_team
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+save_last_published_version_number_team_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: Save Last Published Version
+  summary: Test for saving last published version
+  created_by: ma1twn
+  status: 0
+  core_data: save_last_published_version_number_team
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+team_with_subsets_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: Team with subsets
+  summary: Test for team with subsets
+  created_by: tt227
+  status: 3
+  core_data: team_with_subsets
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+team_with_profiles_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: Team with profiles
+  summary: Test for team with profiles
+  created_by: tt227
+  status: 3
+  core_data: team_with_profiles
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+invalid_subset_team_profile_content_item:
+  as_a: Developer
+  i_need: to test this feature
+  so_that: I have a working test
+  title: Team with invalid subsets
+  summary: Test for team with invalid subsets
+  created_by: tt227
+  status: 3
+  core_data: invalid_subset_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+
+for_test_survive_deletion_team_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this team profile
+  so_that: it is tested
+  title: For test survive deletion team profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_survive_deletion_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_team_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this team profile
+  so_that: it is tested
+  title: For test deletion team profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+for_test_deletion_subset_team_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this team profile
+  so_that: it is tested
+  title: For test deletion subset team profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_deletion_subset_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+for_test_unauthorized_deletion_team_profile_content_item:
+  as_a: Developer
+  i_need: to test deleting this team profile
+  so_that: it is tested
+  title: For test unauthorized deletion team profile
+  summary: Mucho text
+  created_by: ma1twn
+  core_data: for_test_unauthorized_deletion_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+test_team_profile_output_for_preview_content_item:
+  as_a: Developer
+  i_need: an item that goes into review and outputs all the expected values for the redis queue
+  so_that: preview works
+  title: Preview output has all new changes test
+  summary: Summary before preview
+  created_by: mnskchg
+  core_data: test_team_profile_output_for_preview
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 1
+
+test_status_does_not_change_on_validation_error_team_profile_content_item:
+  as_a: Developer
+  i_need: an item that keeps status message
+  so_that: users aren't confused
+  title: Don't say I'm published
+  summary: Summary
+  created_by: mnskchg
+  core_data: test_status_does_not_change_on_validation_error_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 0
+
+test_publish_associated_team_profile_team_profile_content_item:
+  as_a: Developer
+  i_need: A team with a person
+  so_that: I can test it gets published
+  title: Team with person
+  summary: Summary
+  created_by: tt227
+  core_data: test_publish_associated_team_profile_team_profile
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+  url_path: /teams/team-with-person
+
+test_no_duplicate_team_members_content_item:
+  as_a: Developer
+  i_need: to stop people from adding the same person to a team multiple times
+  so_that: prevent silliness
+  title: Team with no duplicate members
+  summary: Summary
+  created_by: if243
+  core_data: test_no_duplicate_team_members
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 0
+
+test_add_order_to_team_members_content_item:
+  as_a: Developer
+  i_need: to order my team members
+  so_that: people appear in the right order
+  title: Team which you can order the members of
+  summary: Summary
+  created_by: if243
+  core_data: test_add_order_to_team_members
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 0
+
+test_order_of_team_members_for_output_content_item:
+  as_a: Developer
+  i_need: to order my team the right way in the output
+  so_that: enforce the heirarchy
+  title: Team with members in the correct order
+  summary: Summary
+  created_by: if243
+  core_data: test_order_of_team_members_for_output
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 3
+
+test_reorder_team_members_js_content_item:
+  as_a: Developer
+  i_need: to order my team members
+  so_that: people appear in the right order
+  title: Team with JS member order
+  summary: Summary
+  created_by: if243
+  core_data: test_reorder_team_members_js
+  core_data_type: TeamProfile
+  organisation: university_of_bath
+  status: 0

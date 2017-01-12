@@ -1,0 +1,167 @@
+maximum_length_values_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: maximum_length_values_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: maximum_length_values_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+missing_external_url_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: missing_external_url_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_external_url_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+invalid_featured_image_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: invalid_featured_image_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_featured_image_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_alt_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: missing_featured_image_alt_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_featured_image_alt_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+missing_featured_image_caption_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: missing_featured_image_caption_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: missing_featured_image_caption_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+invalid_url_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: invalid_url_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_url_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+invalid_university_url_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: invalid_university_url_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_university_url_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+invalid_university_content_publisher_url_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: invalid_university_content_publisher_url_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_university_content_publisher_url_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+invalid_external_url_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: invalid_external_url_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: invalid_external_url_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+test_deletion_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: test_deletion_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: test_deletion_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+test_unauthorized_deletion_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: It is tested
+  title: test_unauthorized_deletion_external_item test
+  summary: Some text
+  created_by: tt227
+  core_data: test_unauthorized_deletion_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 3
+
+test_status_does_not_change_on_validation_error_external_item_content_item:
+  as_a: Developer
+  i_need: An item that keeps status message
+  so_that: Users aren't confused
+  title: Don't say I'm published
+  summary: Some text
+  created_by: tt227
+  core_data: test_status_does_not_change_on_validation_error_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 0
+
+test_one_for_landing_page_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: I can test a landing page
+  title: ExternalItem 1
+  summary: Some text
+  created_by: tt227
+  core_data: test_one_for_landing_page_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 0
+
+test_two_for_landing_page_external_item_content_item:
+  as_a: Developer
+  i_need: To test this external_item
+  so_that: I can test a landing page
+  title: ExternalItem 2
+  summary: Some text
+  created_by: tt227
+  core_data: test_two_for_landing_page_external_item
+  core_data_type: ExternalItem
+  organisation: university_of_bath
+  status: 0

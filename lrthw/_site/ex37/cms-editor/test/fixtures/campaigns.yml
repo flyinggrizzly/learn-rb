@@ -1,0 +1,166 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+maximum_length_values_campaign:
+  subtype: campus_campaign
+  status: closed
+  featured_image: http://www.bath.ac.uk/0HS6rcrzRBZu2ZjyH5tHQorRrGKz0HcwXmHshfr9x1xkK3UlD8f7PT5zGjVNUWMoTUnac76pyoOtEbtOzo5lVtDKF67DeH0QQGEe6OLVoUkGFWjF4AcXu1qu3X1MfuRexY7LK28P31beneT4rssiyCrbUNByInhfawunvDUfLALMlt20kDCOtI4CMWWuuQ6KKnlnmVOoGRww8KC7kzNjFMnChXiR3Oee4Bb4L0gli
+  featured_image_alt: 0HS6rcrzRBZu2ZjyH5tHQorRrGKz0HcwXmHshfr9x1xkK3UlD8f7PT5zGjVNUWMoTUnac76pyoOtEbtOzo5lVtDKF67DeH0QQGEe6OLVoUkGFWjF4AcXu1qu3X1MfuRexY7LK28P31beneT4rssiyCrbUNByInhfawunvDUfLALMlt20kDCOtI4CMWWuuQ6KKnlnmVOoGRww8KC7kzNjFMnChXiR3Oee4Bb4L0gliqNnEGmWWqZOLqO68UjxIEF
+  featured_image_caption: BC9x7zvbS0UbbvhvXtDHmKoY9rAg9kOjr2Bv31h1aP85J4oBbL1CezBbPKk67rq2yfgt6cQKOJlZ1N3sB2jLpNUUFZn3MIRJE1k15BU5yOsGFCNZeyRMl9LEEnfQ43IUGQZBSmkSEJIJXwp74uNHIqMxp9I4H8AQnfyOx5ZHxsHnmAJqsiABGY7svwY7icqtcZqlDLzNq6qzSBoLlyWweLpQhAMDm8vM72WfrygjSJtTWnNmm4sgpmPNewBjDVA
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: vtJBvuoYoKE3xTjojmny1lCmB8BE3Zsa8nfasVgrCPT90kTrNo9GqTjQKOOteou9OIcvrAIQ0UDyzqIN14ptZokGThubVpkzNgtQW6TrTm3H2GNO6esAqythqRivksDGe5ZqrW30vR4btyoVq2NgEYhkUr8ifH7c1ZmHL98CT0MWfJNkIzW8wZITFOwySot8CtBbobW9NSBzHDOk7V1BBEj57obesPHRCm9QyRHj0tub4K31jXGSSSh8e0rMkX29Lhq390LA5Dg0K6VbLYQ2B4gkx7HGFr96gS2qYJeM7U58eRBXYYwQ2oG5LMVVYOtFGEFcYplnoxaDzAg5CS6ClnjDuXYxVp6qvtBM1iF3SZ3xzunIHCRgaMlOnVwHSNknIpYtnjEPNGiASeE132yY3iVjMbQbBl4vHxDrTut8UPNuImCw6QiSm7ku7jn3LvUkv4Kgrb04gSloPfcprkK1axeCMSJ6QlJTiJ9VSKUSeUy89Wt3omPNwz58EkG975eXvKinhjlowbP6ElKwtZx3kEvYlYhKxG2t5Gbhxaz2wzxgWf75nnFpUfApKIgo1Q5LMcEaTT0k4eqAJSPPak2cx03MSHF403V40smKrz0tcjTllKjESMkz71Ku8V8E7qzJnPxzZbeAKKGZ4vkIR1X6XEEDSYWT6n4qS2GUxKmVKCmLcgRwomeT3n4xTfvbHoqeTpmmJLomxQZJRZ6iQEWxjJtwSjRlBzPStDYQa95Rki0FuevzJqDvNBEepyhargWmo5IN9VQv3TQfep44clPzH6zLqvkZeJXL2aUfhQc1XSs6MhViorsHEy5zB2QLi78Kx12lYDebWKhBCv5yZfJeaUKU0M9FsIMmO0IWS0tKue8Lgnl3fhSorOwOkpyjE2m7LX9Ep4Pmt3t7VHApZfE7W0N5mgt8imlA82aL0EmXowAv0H7vbw6E1WtUyG402XeBcJzSL0c3Aipj0QY8RBOvfvjIZzgb3lym2ashbqyD
+  contact_name: QD0pUxJqcJPvyDZItS7nvZ81oe3Ct4UcKbL4jAj8BIlMwX7FJZT06zifevtlucQRV6xwlQHNXqmphm7G4eONnrnqACjamlwKXmfg8USZehzFoe9mqXgYXSZTXt00OOpwpti9TlouIb4QeSkBCmetlBUz6eNi2GZVTJymEXHNaExSTCbBZRnu31VYz1Yo76W6p074C8s628PIHVYMKQiaBikN8cAw9SsmMcB1Ptg7Xg8TwKYJQcrLJ7ebRa2O3NM
+  contact_email: QD0pUxJqcJPvyDZItS7nvZ81oe3Ct4UcKbL4jAj8BIlMwX7FJZT06zifevtlucQRV6xwlQHNXqmphm7G4eONnrnqACjamlwKXmfg8USZehzFoe9mqXgYXSZTXt00OOpwpti9TlouIb4QeSkBCmetlBUz6eNi2GZVTJymEXHNaExSTCbBZRnu31VYz1Yo76W6p074C8s628PIHVYMKQiaBikN8cAw9SsmMcB1Ptg7Xg8TwKYJQcrL@bath.ac.uk
+  contact_phone: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+missing_benefit_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+missing_status_campaign:
+  subtype: campus_campaign
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+missing_start_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+missing_end_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+missing_featured_image_alt_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+missing_featured_image_caption_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: Alt text
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+start_after_end_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-07-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+invalid_featured_image_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: invalidurl
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: 01225 388388
+
+invalid_contact_email_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: bath.ac.uk
+  contact_phone: 01225 388388
+
+invalid_contact_phone_campaign:
+  subtype: campus_campaign
+  status: open
+  featured_image: https://farm4.staticflickr.com/3917/14397835294_23edf562a9.jpg
+  featured_image_alt: A logo
+  featured_image_caption: A caption
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is a campaign
+  contact_name: A person
+  contact_email: a.person@bath.ac.uk
+  contact_phone: Invalid
+
+for_test_deletion_campaign:
+  subtype: public_campaign
+  status: open
+  start: 2015-07-31
+  end: 2015-08-01
+
+for_test_unauthorized_deletion_campaign:
+  subtype: public_campaign
+  status: open
+  start: 2015-07-31
+  end: 2015-08-01
+
+test_campaign_output_for_preview:
+  subtype: public_campaign
+  status: open
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: This is what I say before Review
+
+test_status_does_not_change_on_validation_error_campaign:
+  subtype: public_campaign
+  status: open
+  start: 2015-07-31
+  end: 2015-08-01
+  supporting_information: blah

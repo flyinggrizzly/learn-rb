@@ -1,0 +1,274 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+cms_test_user:
+  username: cms-test-user
+  display_name: CMS Test User
+  first_name: CMS
+  last_name: User
+  person_id: 111111
+  admin: false
+  editor: false
+  author: false
+  contributor: false
+  organisation: university_of_bath
+  associated_orgs: science
+  groups: research_group
+
+cms_test_science_user:
+  username: cms-science-user
+  display_name: CMS Science User
+  first_name: CMS
+  last_name: Science-User
+  person_id: 888888
+  admin: false
+  editor: true
+  author: true
+  organisation: science
+  groups: feature_test_group
+
+cms_test_user_sees_orgs:
+  username: cms-test-user-sees-orgs
+  display_name: CMS Test User Sees Orgs
+  first_name: CMS
+  last_name: Test User Sees Orgs
+  person_id: 777777
+  admin: false
+  editor: true
+  author: true
+  organisation: science
+  associated_orgs: other_org
+  groups: feature_test_group
+
+cms_test_user_without_associated_org:
+  username: cms-test-user2
+  display_name: CMS Test User2
+  first_name: CMS
+  last_name: User
+  person_id: 999999
+  admin: false
+  editor: false
+  author: false
+  contributor: false
+  organisation: university_of_bath
+
+cms_test_editor:
+  username: cms-test-editor
+  display_name: CMS Test Editor
+  first_name: Ed
+  last_name: Itor
+  person_id: 333333
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
+
+cms_admin_user:
+  username: cms-admin-user
+  display_name: CMS Admin User
+  first_name: Admin
+  last_name: User
+  person_id: 222222
+  organisation: university_of_bath
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+
+cms_group_user:
+  username: cms-group-user
+  display_name: CMS Group User
+  first_name: CMS
+  last_name: Group-User
+  person_id: 444444
+  organisation: child_group
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+cms_parent_org_user:
+  username: cms-parent-org-user
+  display_name: CMS Parent Org User
+  first_name: CMS
+  last_name: Parent-Org-User
+  person_id: 555555
+  organisation: parent_org
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+cms_associated_parent_org_user:
+  username: cms-associated-parent-org-user
+  display_name: CMS Associated Parent Org User
+  first_name: CMS
+  last_name: Associated-Parent-Org-User
+  person_id: 666666
+  organisation: mar_comms
+  associated_orgs: parent_org_of_associated_group
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+cms_test_author_cannot_change_org:
+  username: cms-test-author-cannot-change-org
+  display_name: CMS author Cannot Change Org
+  first_name: CMS
+  last_name: author Cannot Change Org
+  person_id: 100001
+  organisation: mar_comms
+  associated_orgs: child_group
+  admin: false
+  editor: false
+  author: true
+  contributor: true
+
+cms_test_editor_can_change_org:
+  username: cms-test-editor-can-change-org
+  display_name: CMS Test Editor Can Change Org
+  first_name: CMS
+  last_name: Test Editor Can Change Org
+  person_id: 100002
+  organisation: mar_comms
+  associated_orgs: child_group
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+ordering_test_user_aa:
+  username: ordering_test_user_aa
+  display_name: Aaron Aaronson
+  first_name: Keith Aaron
+  last_name: Aaronson
+  person_id: 300003
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+ordering_test_user_bb:
+  username: ordering_test_user_bb
+  display_name: Bobby Brown
+  first_name: Roberta
+  last_name: Brown
+  person_id: 300002
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+ordering_test_user_zz:
+  username: ordering_test_user_cc
+  display_name: Ziggy Smith
+  first_name: Aaron
+  last_name: Smith
+  person_id: 300001
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+associated_cannot_set_org:
+  username: cteaocso
+  display_name: Not worthy
+  first_name: Associated
+  last_name: Editor
+  person_id: 400001
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+editor_owning_org_can_set:
+  username: cteoocso
+  display_name: Listed
+  first_name: Editor
+  last_name: Owning-Org
+  person_id: 400002
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+editor_associated_cannot_set:
+  username: editor-associated-cannot-set
+  display_name: Cannot Set Editor
+  first_name: Cannot
+  last_name: Set Editor
+  person_id: 400003
+  organisation: university_of_bath
+  admin: false
+  editor: true
+  author: true
+  contributor: true
+
+# Fixtures for Digital team members who are 'last modified' users in content item fixtures
+
+tt227:
+  username: tt227
+  display_name: Tom Trentham
+  first_name: Tom
+  last_name: Trentham
+  person_id: 900001
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
+
+ma1twn:
+  username: ma1twn
+  display_name: Tom Natt
+  first_name: Tom
+  last_name: Natt
+  person_id: 900002
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
+
+mnskchg:
+  username: mnskchg
+  display_name: Kelvin Gan
+  first_name: Kelvin
+  last_name: Gan
+  person_id: 900003
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
+
+if243:
+  username: if243
+  display_name: Iris Faraway
+  first_name: Iris
+  last_name: Faraway
+  person_id: 900004
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
+
+lm317:
+  username: lm317
+  display_name: Liam McMurray
+  first_name: Liam
+  last_name: McMurray
+  person_id: 900005
+  admin: true
+  editor: true
+  author: true
+  contributor: true
+  organisation: university_of_bath
