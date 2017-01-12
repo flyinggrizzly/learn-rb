@@ -26,7 +26,8 @@ class Thing
     @exists = true
   end
 
-  attr_reader :name
+  attr_accessor :exists
+  attr_reader   :name
 end
 
 class KeyItem < Thing
@@ -39,8 +40,29 @@ class KeyItem < Thing
   attr_reader :category
 end
 
-# test
-inventory = Inventory.new()
-inventory.add_a('item 1', 'foo')
-inventory.add_a('item 2', 'bar')
-inventory.list_all
+
+# maps out which key items can unblock which types of blockers
+class RockPaperScissors
+
+  # get smart and make sure you only need to write out the block and key pairings once; the initialize function will reverse them for easier lookup
+  def initialize
+
+    @blockers_and_keys = {
+      'door'        => 'key',
+      'enemy'       => 'weapon',
+      'class clown' => 'joke'
+    }
+
+    @keys_and_blockers = Hash.new()
+
+    @blockers_and_keys.each do |blocker, key|
+      #switch them so we get a new hash that's reversed of the original
+      @keys_and_blockers[key] = blocker
+    end
+  end
+
+  attr_reader :blockers_and_keys, :keys_and_blockers
+end
+
+
+# test: item_management-test.rb

@@ -6,7 +6,7 @@ class Player
 
     puts "Do you know any jokes?"
     puts "1. Yes   2. No"
-    knows_joke = $stdin.gets.chomp.to_i
+    knows_joke = self.prompt.to_i
 
     if knows_joke == 1
       @inventory.add_a('joke', 'joke')
@@ -16,6 +16,18 @@ class Player
 
   def prompt
     print "> "
+    response = $stdin.gets.chomp
+
+    if response == "inventory"
+      @inventory.list_all
+      prompt
+    else
+      return response
+    end
+  end
+
+  def prompt
+    print "\n> "
     response = $stdin.gets.chomp
 
     if response == "inventory"
