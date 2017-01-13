@@ -15,7 +15,7 @@ class CentralCorridor < Scene
   def enter()
     puts "1. Straight. 2. Left. 3. Right."
 
-    direction = a_game.prompt.to_i
+    direction = $player.prompt.to_i
 
     if direction == 1
       puts "Entering the escape pod room."

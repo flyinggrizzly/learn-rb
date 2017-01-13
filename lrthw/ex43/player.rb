@@ -15,18 +15,6 @@ class Player
   end
 
   def prompt
-    print "> "
-    response = $stdin.gets.chomp
-
-    if response == "inventory"
-      @inventory.list_all
-      prompt
-    else
-      return response
-    end
-  end
-
-  def prompt
     print "\n> "
     response = $stdin.gets.chomp
 

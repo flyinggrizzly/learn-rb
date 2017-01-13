@@ -15,6 +15,18 @@ class Engine
     @player = Player.new(name)
   end
 
+  def prompt
+    print "> "
+    response = $stdin.gets.chomp
+
+    if response == "inventory"
+      @inventory.list_all
+      prompt
+    else
+      return response
+    end
+  end
+
   def play()
     current_scene = @map.opening_scene
     last_scene = @map.next_scene('escaped')
@@ -31,6 +43,6 @@ end
 
 
 obstacle_keys = RockPaperScissors.new()
-a_map = Map.new('central_corridor')
-a_game = Engine.new(a_map)
-a_game.play()
+# a_map = Map.new('central_corridor')
+# a_game = Engine.new(a_map)
+# a_game.play()
