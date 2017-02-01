@@ -5,13 +5,12 @@ require './item_management.rb'
 require './game.rb'
 
 map = Map.new('central_corridor')
-$game = Engine.new(map)
 
 # this works for the class...
 Map.scenes.each do |name, scene|
   puts "#{name}"
-  scene.enter
-  puts "end #{scene}\n----------"
+  # scene.enter
+  puts "end #{name}\n----------"
 end
 
 ## but it doesn't work for objects of the class
